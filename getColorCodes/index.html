@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Cache-control" content="public" />
+		<meta
+			name="viewport"
+			content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+		/>
+		<title>Vasanth.V</title>
+		<style>
+			body {
+				font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+					Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-text-size-adjust: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="pic.jpg" id="img" />
+		<canvas id="myCanvas" width="94" height="94"></canvas>
+		<script type="text/javascript">
+			function rgb2hex(rgb) {
+				rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
+				return rgb && rgb.length === 4
+					? '#' +
+							('0' + parseInt(rgb[1], 10).toString(16)).slice(-2) +
+							('0' + parseInt(rgb[2], 10).toString(16)).slice(-2) +
+							('0' + parseInt(rgb[3], 10).toString(16)).slice(-2)
+					: '';
+			}
+			window.onload = function() {
+				var canvas = document.getElementById('myCanvas');
+				var ctx = canvas.getContext('2d');
+				var img = document.getElementById('img');
+				ctx.drawImage(img, 0, 0);
+
+				var pixelData = ctx.getImageData(0, 0, 1, 1).data;
+
+				var pixelData = [];
+				for (i = 0; i <= 93; i++) {
+					for (j = 0; j <= 93; j++) {
+						const colorData = ctx.getImageData(i, j, 1, 1).data;
+						const rgb = `rgb(${colorData[0]}, ${colorData[1]}, ${colorData[2]})`;
+						// pixelData.push(rgb);
+						pixelData.push(`"${rgb2hex(rgb)}"`);
+					}
+				}
+
+				console.log(pixelData.join(','));
+			};
+		</script>
+	</body>
+</html>
