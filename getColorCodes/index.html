@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<img src="pic.jpg" id="img" />
-		<canvas id="myCanvas" width="94" height="94"></canvas>
+		<canvas id="myCanvas" width="188" height="188"></canvas>
 		<script type="text/javascript">
 			function rgb2hex(rgb) {
 				rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
@@ -40,8 +40,8 @@
 				var pixelData = ctx.getImageData(0, 0, 1, 1).data;
 
 				var pixelData = [];
-				for (i = 0; i <= 93; i++) {
-					for (j = 0; j <= 93; j++) {
+				for (i = 0; i <= 187; i++) {
+					for (j = 0; j <= 187; j++) {
 						const colorData = ctx.getImageData(i, j, 1, 1).data;
 						const rgb = `rgb(${colorData[0]}, ${colorData[1]}, ${colorData[2]})`;
 						// pixelData.push(rgb);
