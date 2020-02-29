@@ -47,6 +47,7 @@ a.telegram {
 	height: 220px;
 	cursor: pointer;
 	transform: translateY(-30px);
+	transition: transform 200ms;
 }
 
 #lamp {
