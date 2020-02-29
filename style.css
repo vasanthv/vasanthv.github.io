@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Droid serif';
+	src: url(./DroidSerif.ttf);
+}
+@font-face {
+	font-family: 'Droid serif';
+	font-style: italic;
+	src: url(./DroidSerif-Italic.ttf);
+}
+
+body {
+	font-family: 'Droid Serif', serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	margin: 0px;
+	background-color: #222;
+	overflow-x: hidden;
+	overscroll-behavior: none;
+}
+a {
+	color: #34495e;
+}
+a.twitter {
+	color: #1ca2f3;
+}
+a.producthunt {
+	color: #da542e;
+}
+a.github {
+	color: #24292f;
+}
+a.telegram {
+	color: #199cdf;
+}
+#wrap {
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	position: relative;
+	padding: 0px 1rem;
+	box-sizing: border-box;
+}
+#switch {
+	position: fixed;
+	width: 8px;
+	height: 220px;
+	cursor: pointer;
+	transform: translateY(-30px);
+}
+
+#lamp {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 0px;
+	right: 0.5rem;
+}
+
+#light {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 35px;
+	right: 25px;
+	z-index: -1;
+	transition: transform 0.5s;
+}
+
+#light #lampCircle {
+	fill: #434343;
+}
+
+#light.on {
+	transform: scale(50, 50);
+}
+
+#content {
+	padding: calc(100px + 1rem) 1rem 1rem 2rem;
+	color: #222;
+	font-size: 2rem;
+	line-height: 1.6;
+	visibility: hidden;
+}
