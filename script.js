@@ -28,3 +28,5 @@ const lampClick = document.getElementById('click');
 const lampCircle = document.getElementById('lampCircle');
 lampSwitch.addEventListener('mousedown', pointerDown);
 document.addEventListener('mouseup', pointerEnd);
+lampSwitch.addEventListener('touchstart', pointerDown);
+document.addEventListener('touchend', pointerEnd);
