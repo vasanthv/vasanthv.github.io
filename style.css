@@ -7,11 +7,10 @@
 	font-style: italic;
 	src: url(./DroidSerif-Italic.ttf);
 }
-html,
+/* html,
 body {
 	overflow-y: auto;
-	overflow-x: hidden;
-}
+} */
 body {
 	font-family: 'Droid Serif', serif;
 	-webkit-font-smoothing: antialiased;
@@ -19,6 +18,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 	margin: 0px;
 	background-color: #222;
+	overflow-x: hidden;
 	overscroll-behavior: none;
 }
 a {
