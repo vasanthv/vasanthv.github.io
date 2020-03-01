@@ -11,8 +11,11 @@ html,
 body {
 	overflow-y: auto;
 	overflow-x: hidden;
+	overscroll-behavior: none;
+	height: 100%;
 }
 body {
+	height: 100%;
 	min-height: 100vh;
 	font-family: 'Droid Serif', serif;
 	-webkit-font-smoothing: antialiased;
@@ -20,14 +23,16 @@ body {
 	-webkit-text-size-adjust: 100%;
 	margin: 0px;
 	background-color: #222;
-	overscroll-behavior: none;
-	-webkit-user-select: none; /* Chrome all / Safari all */
-	-moz-user-select: none; /* Firefox all */
-	-ms-user-select: none; /* IE 10+ */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
 }
 a {
 	color: #34495e;
+}
+a.coefficient {
+	color: #0054e6;
 }
 a.twitter {
 	color: #1ca2f3;
@@ -97,5 +102,5 @@ a.telegram {
 	color: #222;
 	font-size: 2rem;
 	line-height: 1.6;
-	visibility: hidden;
+	display: none;
 }

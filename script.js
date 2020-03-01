@@ -14,13 +14,13 @@ const toggleLight = () => {
 		lightOn = true;
 		lampClick.play();
 		light.classList.add('on');
-		content.style.visibility = 'visible';
+		content.style.display = 'block';
 		lampCircle.style.fill = '#dfdfdf';
 	} else {
 		lightOn = false;
 		lampClick.play();
 		light.classList.remove('on');
-		content.style.visibility = 'hidden';
+		content.style.display = 'none';
 		lampCircle.style.fill = '#434343';
 	}
 };
