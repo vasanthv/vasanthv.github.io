@@ -7,18 +7,19 @@
 	font-style: italic;
 	src: url(./DroidSerif-Italic.ttf);
 }
-/* html,
+html,
 body {
 	overflow-y: auto;
-} */
+	overflow-x: hidden;
+}
 body {
+	min-height: 100vh;
 	font-family: 'Droid Serif', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	margin: 0px;
 	background-color: #222;
-	overflow-x: hidden;
 	overscroll-behavior: none;
 	-webkit-user-select: none; /* Chrome all / Safari all */
 	-moz-user-select: none; /* Firefox all */
