@@ -1,4 +1,7 @@
 let lightOn = false;
+const is_touch_device = () => {
+	return 'ontouchstart' in window;
+};
 const pointerDown = e => {
 	lampSwitch.style.transform = `translateY(-15px)`;
 	toggleLight();
@@ -26,7 +29,10 @@ const light = document.getElementById('light');
 const content = document.getElementById('content');
 const lampClick = document.getElementById('click');
 const lampCircle = document.getElementById('lampCircle');
-lampSwitch.addEventListener('mousedown', pointerDown);
-document.addEventListener('mouseup', pointerEnd);
-lampSwitch.addEventListener('touchstart', pointerDown);
-document.addEventListener('touchend', pointerEnd);
+if (is_touch_device()) {
+	lampSwitch.addEventListener('touchstart', pointerDown);
+	document.addEventListener('touchend', pointerEnd);
+} else {
+	lampSwitch.addEventListener('mousedown', pointerDown);
+	document.addEventListener('mouseup', pointerEnd);
+}
