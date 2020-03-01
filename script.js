@@ -10,15 +10,14 @@ const pointerEnd = e => {
 	lampSwitch.style.transform = `translateY(-30px)`;
 };
 const toggleLight = () => {
+	lampClick.play();
 	if (!lightOn) {
 		lightOn = true;
-		lampClick.play();
 		light.classList.add('on');
 		content.style.display = 'block';
 		lampCircle.style.fill = '#dfdfdf';
 	} else {
 		lightOn = false;
-		lampClick.play();
 		light.classList.remove('on');
 		content.style.display = 'none';
 		lampCircle.style.fill = '#434343';
