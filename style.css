@@ -50,7 +50,7 @@ a.telegram {
 }
 #switch {
 	position: fixed;
-	width: 20px;
+	width: 2rem;
 	height: 220px;
 	cursor: pointer;
 	transform: translateY(-30px);
