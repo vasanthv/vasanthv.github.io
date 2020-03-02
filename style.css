@@ -30,6 +30,8 @@ body {
 }
 a {
 	color: #34495e;
+	text-decoration: underline;
+	text-decoration-style: dotted;
 }
 a.coefficient {
 	color: #0054e6;
@@ -94,7 +96,7 @@ a.telegram {
 }
 
 #light.on {
-	transform: scale(50, 50);
+	transform: scale(80, 80);
 }
 
 #content {
