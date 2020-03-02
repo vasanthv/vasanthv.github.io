@@ -1,9 +1,9 @@
 @font-face {
-	font-family: 'Droid serif';
+	font-family: "Droid serif";
 	src: url(./DroidSerif.ttf);
 }
 @font-face {
-	font-family: 'Droid serif';
+	font-family: "Droid serif";
 	font-style: italic;
 	src: url(./DroidSerif-Italic.ttf);
 }
@@ -17,7 +17,7 @@ body {
 body {
 	height: 100%;
 	min-height: 100vh;
-	font-family: 'Droid Serif', serif;
+	font-family: "Droid Serif", serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
@@ -105,4 +105,16 @@ a.telegram {
 	font-size: 2rem;
 	line-height: 1.6;
 	display: none;
+}
+/* Below CSS to load italic font on page load */
+#loadFont:before {
+	content: "—";
+}
+#loadFont {
+	font-style: italic;
+	font-size: 2rem;
+	line-height: 1.6;
+	padding: 1rem 1rem 2rem;
+	color: #888;
+	visibility: hidden;
 }
