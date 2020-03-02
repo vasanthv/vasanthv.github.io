@@ -1,9 +1,10 @@
+@import './icomoon/style.css';
 @font-face {
-	font-family: "Droid serif";
+	font-family: 'Droid serif';
 	src: url(./DroidSerif.ttf);
 }
 @font-face {
-	font-family: "Droid serif";
+	font-family: 'Droid serif';
 	font-style: italic;
 	src: url(./DroidSerif-Italic.ttf);
 }
@@ -11,13 +12,12 @@ html,
 body {
 	overflow-y: auto;
 	overflow-x: hidden;
-	overscroll-behavior: none;
 	height: 100%;
 }
 body {
 	height: 100%;
 	min-height: 100vh;
-	font-family: "Droid Serif", serif;
+	font-family: 'Droid Serif', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
@@ -27,25 +27,28 @@ body {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	overflow-y: hidden;
 }
 a {
-	color: #34495e;
-	text-decoration: underline;
-	text-decoration-style: dotted;
+	color: #222;
+	text-decoration: none;
 }
-a.coefficient {
+a:hover {
+	color: #34495e;
+}
+a.coefficient:hover {
 	color: #0054e6;
 }
-a.twitter {
+a.twitter:hover {
 	color: #1ca2f3;
 }
-a.producthunt {
+a.producthunt:hover {
 	color: #da542e;
 }
-a.github {
-	color: #24292f;
+a.github:hover {
+	color: #171515;
 }
-a.telegram {
+a.telegram:hover {
 	color: #199cdf;
 }
 #wrap {
@@ -57,7 +60,7 @@ a.telegram {
 	box-sizing: border-box;
 }
 #switch {
-	position: fixed;
+	position: absolute;
 	width: 2rem;
 	height: 220px;
 	cursor: pointer;
@@ -100,21 +103,13 @@ a.telegram {
 }
 
 #content {
-	padding: calc(100px + 1rem) 1rem 1rem 2rem;
+	padding: calc(100px + 1rem) 1rem 2rem 2rem;
 	color: #222;
 	font-size: 2rem;
 	line-height: 1.6;
-	display: none;
+	opacity: 0;
+	transition: opacity 0.5s;
 }
-/* Below CSS to load italic font on page load */
-#loadFont:before {
-	content: "—";
-}
-#loadFont {
-	font-style: italic;
-	font-size: 2rem;
-	line-height: 1.6;
-	padding: 1rem 1rem 2rem;
-	color: #888;
-	visibility: hidden;
+#content .links a {
+	margin-right: 1rem;
 }
