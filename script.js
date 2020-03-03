@@ -14,14 +14,14 @@ const toggleLight = () => {
 	if (!lightOn) {
 		lightOn = true;
 		light.classList.add('on');
-		document.body.style.background = '#fff';
+		document.body.style.backgroundColor = '#fff';
 		content.style.opacity = '1';
 		lampCircle.style.fill = '#dfdfdf';
 		setTimeout(() => light.classList.remove('on'), 500);
 	} else {
 		lightOn = false;
 		light.classList.remove('on');
-		document.body.style.background = '#222';
+		document.body.style.backgroundColor = '#222';
 		content.style.opacity = '0';
 		lampCircle.style.fill = '#434343';
 	}

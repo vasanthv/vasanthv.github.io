@@ -22,12 +22,13 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	margin: 0px;
-	background: #222;
+	background-color: #222;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	transition: background 0.5s;
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
 }
 a {
 	color: #222;
