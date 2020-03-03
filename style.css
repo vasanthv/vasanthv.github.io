@@ -22,16 +22,15 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	margin: 0px;
-	background-color: #222;
+	background: #222;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	overflow-y: hidden;
+	transition: background 0.5s;
 }
 a {
 	color: #222;
-	text-decoration: none;
 }
 a:hover {
 	color: #34495e;
@@ -51,9 +50,12 @@ a.github:hover {
 a.telegram:hover {
 	color: #199cdf;
 }
+a.linkedin:hover {
+	color: #0178b5;
+}
 #wrap {
 	width: 100%;
-	max-width: 800px;
+	max-width: 720px;
 	margin: auto;
 	position: relative;
 	padding: 0px 1rem;
@@ -105,11 +107,21 @@ a.telegram:hover {
 #content {
 	padding: calc(100px + 1rem) 1rem 2rem 2rem;
 	color: #222;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	line-height: 1.6;
 	opacity: 0;
 	transition: opacity 0.5s;
 }
 #content .links a {
+	height: 32px;
+	width: 32px;
 	margin-right: 1rem;
+	text-decoration: none;
 }
+
+/* @media only screen and (max-width: 720px) {
+	#content {
+		font-size: 1.2rem;
+		line-height: 1.6;
+	}
+} */

@@ -14,11 +14,14 @@ const toggleLight = () => {
 	if (!lightOn) {
 		lightOn = true;
 		light.classList.add('on');
+		document.body.style.background = '#fff';
 		content.style.opacity = '1';
 		lampCircle.style.fill = '#dfdfdf';
+		setTimeout(() => light.classList.remove('on'), 500);
 	} else {
 		lightOn = false;
 		light.classList.remove('on');
+		document.body.style.background = '#222';
 		content.style.opacity = '0';
 		lampCircle.style.fill = '#434343';
 	}
@@ -35,11 +38,11 @@ if (is_touch_device()) {
 	lampSwitch.addEventListener('mousedown', pointerDown);
 	document.addEventListener('mouseup', pointerEnd);
 }
-var height = Math.max(
-	document.body.scrollHeight,
-	document.body.offsetHeight,
-	document.documentElement.clientHeight,
-	document.documentElement.scrollHeight,
-	document.documentElement.offsetHeight
-);
-document.body.style.maxHeight = height + 'px';
+// var height = Math.max(
+// 	document.body.scrollHeight,
+// 	document.body.offsetHeight,
+// 	document.documentElement.clientHeight,
+// 	document.documentElement.scrollHeight,
+// 	document.documentElement.offsetHeight
+// );
+// document.body.style.height = height + 'px';
