@@ -17,7 +17,7 @@ const toggleLight = () => {
 		document.body.style.backgroundColor = '#fff';
 		content.style.opacity = '1';
 		lampCircle.style.fill = '#dfdfdf';
-		setTimeout(() => light.classList.remove('on'), 500);
+		setTimeout(() => light.classList.remove('on'), 560);
 	} else {
 		lightOn = false;
 		light.classList.remove('on');
