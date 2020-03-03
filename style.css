@@ -53,6 +53,19 @@ a.telegram:hover {
 a.linkedin:hover {
 	color: #0178b5;
 }
+::-webkit-scrollbar {
+	width: 0.1rem;
+}
+::-webkit-scrollbar-track {
+	background: none;
+	opacity: 0;
+}
+::-webkit-scrollbar-thumb {
+	background: #fff;
+	opacity: 0;
+	border-radius: 0.5rem;
+}
+
 #wrap {
 	width: 100%;
 	max-width: 720px;
