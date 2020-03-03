@@ -8,15 +8,7 @@
 	font-style: italic;
 	src: url(./DroidSerif-Italic.ttf);
 }
-html,
 body {
-	overflow-y: auto;
-	overflow-x: hidden;
-	height: 100%;
-}
-body {
-	height: 100%;
-	min-height: 100vh;
 	font-family: 'Droid Serif', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
