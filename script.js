@@ -38,11 +38,3 @@ if (is_touch_device()) {
 	lampSwitch.addEventListener('mousedown', pointerDown);
 	document.addEventListener('mouseup', pointerEnd);
 }
-// var height = Math.max(
-// 	document.body.scrollHeight,
-// 	document.body.offsetHeight,
-// 	document.documentElement.clientHeight,
-// 	document.documentElement.scrollHeight,
-// 	document.documentElement.offsetHeight
-// );
-// document.body.style.height = height + 'px';
