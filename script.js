@@ -25,6 +25,7 @@ const toggleLight = () => {
 		content.style.opacity = '0';
 		lampCircle.style.fill = '#434343';
 	}
+	lampSwitch.classList.toggle('animate');
 };
 const lampSwitch = document.getElementById('switch');
 const light = document.getElementById('light');

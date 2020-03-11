@@ -80,6 +80,9 @@ a.linkedin:hover {
 	transition: transform 200ms;
 	z-index: 100;
 }
+#switch.animate {
+	animation: pulldown 1s linear infinite alternate;
+}
 
 #switch svg {
 	height: 100%;
@@ -127,4 +130,19 @@ a.linkedin:hover {
 	width: 32px;
 	margin-right: 1rem;
 	text-decoration: none;
+}
+
+@keyframes pulldown {
+	0% {
+		transform: translateY(-30px);
+	}
+	15% {
+		transform: translateY(-15px);
+	}
+	30% {
+		transform: translateY(-30px);
+	}
+	100% {
+		transform: translateY(-30px);
+	}
 }
