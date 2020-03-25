@@ -1,10 +1,10 @@
-@import './icomoon/style.css';
+@import "./icomoon/style.css";
 @font-face {
-	font-family: 'Droid serif';
+	font-family: "Droid serif";
 	src: url(./DroidSerif.ttf);
 }
 @font-face {
-	font-family: 'Droid serif';
+	font-family: "Droid serif";
 	font-style: italic;
 	src: url(./DroidSerif-Italic.ttf);
 }
@@ -13,12 +13,12 @@ body {
 	overscroll-behavior: none;
 }
 body {
-	font-family: 'Droid Serif', serif;
+	font-family: "Droid Serif", serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	margin: 0px;
-	background-color: #222;
+	background-color: #fff;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -109,7 +109,7 @@ a.linkedin:hover {
 }
 
 #light #lampCircle {
-	fill: #434343;
+	fill: #dfdfdf;
 	transition: fill 0.5s;
 }
 
@@ -122,7 +122,7 @@ a.linkedin:hover {
 	color: #222;
 	font-size: 1.8rem;
 	line-height: 1.6;
-	opacity: 0;
+	opacity: 1;
 	transition: opacity 0.5s;
 }
 #content .links a {
