@@ -1,4 +1,4 @@
-let lightOn = true;
+let lightOn = false;
 const is_touch_device = () => {
 	return 'ontouchstart' in window;
 };
@@ -39,4 +39,3 @@ if (is_touch_device()) {
 	lampSwitch.addEventListener('mousedown', pointerDown);
 	document.addEventListener('mouseup', pointerEnd);
 }
-setTimeout(toggleLight, 1000);
