@@ -1,24 +1,28 @@
 @import './icomoon/style.css';
+
 @font-face {
 	font-family: 'Droid serif';
 	src: url(./DroidSerif.ttf);
 }
+
 @font-face {
 	font-family: 'Droid serif';
 	font-style: italic;
 	src: url(./DroidSerif-Italic.ttf);
 }
+
 html,
 body {
 	overscroll-behavior: none;
 }
+
 body {
 	font-family: 'Droid Serif', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	margin: 0px;
-	background-color: #222;
+	background-color: #fff;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -26,37 +30,48 @@ body {
 	transition: background-color 0.5s;
 	-webkit-transition: background-color 0.5s;
 }
+
 a {
 	color: #222;
 }
+
 a:hover {
 	color: #34495e;
 }
+
 a.coefficient:hover {
 	color: #0054e6;
 }
+
 a.twitter:hover {
 	color: #1ca2f3;
 }
+
 a.producthunt:hover {
 	color: #da542e;
 }
+
 a.github:hover {
 	color: #171515;
 }
+
 a.telegram:hover {
 	color: #199cdf;
 }
+
 a.linkedin:hover {
 	color: #0178b5;
 }
+
 ::-webkit-scrollbar {
 	width: 1px;
 }
+
 ::-webkit-scrollbar-track {
 	background: none;
 	opacity: 0;
 }
+
 ::-webkit-scrollbar-thumb {
 	background: #fff;
 	opacity: 0;
@@ -71,6 +86,7 @@ a.linkedin:hover {
 	padding: 0px 1rem;
 	box-sizing: border-box;
 }
+
 #switch {
 	position: absolute;
 	width: 2rem;
@@ -80,8 +96,10 @@ a.linkedin:hover {
 	transition: transform 200ms;
 	z-index: 100;
 }
+
 #switch.animate {
-	animation: pulldown 1s linear infinite alternate;
+	transform: translateY(-30px);
+	animation: pulldown 1s linear infinite alternate 0.5s;
 }
 
 #switch svg {
@@ -109,7 +127,7 @@ a.linkedin:hover {
 }
 
 #light #lampCircle {
-	fill: #434343;
+	fill: #dfdfdf;
 	transition: fill 0.5s;
 }
 
@@ -122,9 +140,10 @@ a.linkedin:hover {
 	color: #222;
 	font-size: 1.8rem;
 	line-height: 1.6;
-	opacity: 0;
+	opacity: 1;
 	transition: opacity 0.5s;
 }
+
 #content .links a {
 	height: 32px;
 	width: 32px;
@@ -136,12 +155,15 @@ a.linkedin:hover {
 	0% {
 		transform: translateY(-30px);
 	}
+
 	15% {
 		transform: translateY(-15px);
 	}
+
 	30% {
 		transform: translateY(-30px);
 	}
+
 	100% {
 		transform: translateY(-30px);
 	}

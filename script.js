@@ -1,4 +1,4 @@
-let lightOn = false;
+let lightOn = true;
 const is_touch_device = () => {
 	return 'ontouchstart' in window;
 };
@@ -25,7 +25,7 @@ const toggleLight = () => {
 		content.style.opacity = '0';
 		lampCircle.style.fill = '#434343';
 	}
-	lampSwitch.classList.toggle('animate');
+	lampSwitch.classList.remove('animate');
 };
 const lampSwitch = document.getElementById('switch');
 const light = document.getElementById('light');
