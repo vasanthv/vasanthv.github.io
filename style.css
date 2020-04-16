@@ -62,6 +62,18 @@ a.telegram:hover {
 a.linkedin:hover {
 	color: #0178b5;
 }
+a.jsonbox:hover {
+	color: #BE8549;
+}
+a.talk:hover {
+	color: #6669C4;
+}
+a.unapp:hover {
+	color: #333333;
+}
+a.looptap:hover {
+	color: #ED5566;
+}
 
 ::-webkit-scrollbar {
 	width: 1px;
