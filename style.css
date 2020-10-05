@@ -1,42 +1,23 @@
-@import './icomoon/style.css';
-
-@font-face {
-	font-family: 'Droid serif';
-	src: url(./DroidSerif.ttf);
-}
-
-@font-face {
-	font-family: 'Droid serif';
-	font-style: italic;
-	src: url(./DroidSerif-Italic.ttf);
-}
-
-html,
-body {
-	overscroll-behavior: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oleo+Script&display=swap');
 
 body {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Noto Serif', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
 	margin: 0px;
 	background-color: #fff;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	transition: background-color 0.5s;
-	-webkit-transition: background-color 0.5s;
+	color: #222;
+	font-size: 2rem;
+	line-height: 2;
 }
 
 a {
-	color: #222;
+	color: inherit;
 }
 
 a:hover {
-	color: #34495e;
+	color: #555;
 }
 
 a.coefficient:hover {
@@ -74,109 +55,31 @@ a.unapp:hover {
 a.looptap:hover {
 	color: #ED5566;
 }
-
-::-webkit-scrollbar {
-	width: 1px;
+a.whistly:hover {
+	color: #3498db;
 }
-
-::-webkit-scrollbar-track {
-	background: none;
-	opacity: 0;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #fff;
-	opacity: 0;
-	border-radius: 0.5rem;
-}
-
-#wrap {
-	width: 100%;
-	max-width: 720px;
-	margin: auto;
-	position: relative;
-	padding: 0px 1rem;
-	box-sizing: border-box;
-}
-
-#switch {
-	position: absolute;
-	width: 2rem;
-	height: 220px;
-	cursor: pointer;
-	transform: translateY(-30px);
-	transition: transform 200ms;
-	z-index: 100;
-}
-
-#switch.animate {
-	transform: translateY(-30px);
-	animation: pulldown 1s linear infinite alternate 0.5s;
-}
-
-#switch svg {
-	height: 100%;
-	margin: auto;
-	display: block;
-}
-
-#lamp {
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	top: 0px;
-	right: 0.5rem;
-}
-
-#light {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	top: 35px;
-	right: 25px;
-	z-index: -1;
-	transition: transform 0.5s;
-}
-
-#light #lampCircle {
-	fill: #dfdfdf;
-	transition: fill 0.5s;
-}
-
-#light.on {
-	transform: scale(80, 80);
+a.notedown:hover {
+	color: #9b59b6;
 }
 
 #content {
-	padding: calc(100px + 1rem) 1rem 2rem 2rem;
-	color: #222;
-	font-size: 1.8rem;
-	line-height: 1.6;
-	opacity: 1;
-	transition: opacity 0.5s;
+	width: 100%;
+	max-width: 768px;
+	margin: 5rem auto auto;
+	position: relative;
+	padding: 2rem;
+	box-sizing: border-box;
 }
 
-#content .links a {
-	height: 32px;
-	width: 32px;
-	margin-right: 1rem;
-	text-decoration: none;
+#name {
+	font-family: 'Oleo Script', cursive;
+	font-size: 120%;
 }
 
-@keyframes pulldown {
-	0% {
-		transform: translateY(-30px);
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #000;
+		color: #ddd;
 	}
 
-	15% {
-		transform: translateY(-15px);
-	}
-
-	30% {
-		transform: translateY(-30px);
-	}
-
-	100% {
-		transform: translateY(-30px);
-	}
 }
