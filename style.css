@@ -27,7 +27,7 @@ h1 {
 main {
 	font-size: 1.5rem;
 	padding: 1rem;
-	min-height: 64vh;
+	min-height: 60vh;
 	display: flex;
 }
 main section {
@@ -47,6 +47,12 @@ a {
 .light {
 	color: var(--text-light);
 }
+.bold {
+	font-weight: bold;
+}
+.medium {
+	font-size: 1.25rem;
+}
 .small {
 	font-size: small;
 }
@@ -54,4 +60,9 @@ a {
 	background: linear-gradient(to right, #6549d5, #f27121);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+.colored:hover {
+	background: none;
+	background-clip: border-box;
+	-webkit-text-fill-color: currentcolor;
 }
