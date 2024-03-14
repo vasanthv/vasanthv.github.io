@@ -1,0 +1,57 @@
+:root {
+	--background: #ffffff;
+	--text: #000000;
+	--text-light: #888888;
+}
+* {
+	outline: 0;
+}
+html {
+	-webkit-overflow-scrolling: touch;
+}
+body {
+	background: var(--background);
+	color: var(--text);
+	margin: 0;
+	font-family: "Inter", sans-serif;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+}
+h1 {
+	font-weight: 500;
+	margin: 0px;
+	font-size: 1.5rem;
+}
+main {
+	font-size: 1.5rem;
+	padding: 1rem;
+	min-height: 64vh;
+	display: flex;
+}
+main section {
+	margin: auto 0px;
+}
+footer {
+	padding: 1rem;
+}
+footer div {
+	margin-bottom: 0.25rem;
+}
+a {
+	color: inherit;
+	text-underline-offset: 2px;
+	text-decoration-thickness: 1px;
+}
+.light {
+	color: var(--text-light);
+}
+.small {
+	font-size: small;
+}
+.colored {
+	background: linear-gradient(to right, #6549d5, #f27121);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
