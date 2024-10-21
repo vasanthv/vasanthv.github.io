@@ -1,0 +1,6 @@
+# Mac
+.DS_Store
+
+# sublime
+*.sublime-project
+*.sublime-workspace

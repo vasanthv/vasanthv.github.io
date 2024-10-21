@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Ultra&display=swap");
+
+body {
+	font-family: "Inter", system-ui;
+	color: #161616;
+	line-height: 1.5;
+	width: 1024px;
+	margin: auto;
+}
+a {
+	color: inherit;
+}
+.light {
+	color: #565656;
+}
+
+main {
+	display: flex;
+}
+main > section {
+	flex: 1;
+}
+header {
+	margin-left: 5rem;
+}
+header #name {
+	font-family: "Ultra", serif;
+	font-size: 3rem;
+}
+header #job-title {
+	font-family: "Noto Serif", serif;
+	font-weight: 300;
+	font-size: 2rem;
+	margin-left: 1rem;
+	color: #767676;
+}
+#about {
+	margin: 1rem 1rem 2rem 5rem;
+	font-size: 1.2rem;
+}
+#contents {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#contents > li {
+	display: flex;
+	padding: 1rem 0px;
+	position: relative;
+}
+#contents > li#summary {
+	padding: 2rem 0rem;
+}
+#contents > li:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 6rem;
+	bottom: 0px;
+	width: 1px;
+	background: #ababab;
+}
+#contents > li:first-child:before {
+	top: 2rem;
+}
+#contents > li:last-child:before {
+	bottom: calc(100% - 2rem);
+}
+#contents > li .date {
+	text-align: center;
+	font-size: 0.8rem;
+	width: 5rem;
+}
+#contents > li .date strong {
+	display: block;
+}
+#contents > li .icon {
+	position: relative;
+	z-index: 10;
+	box-sizing: border-box;
+	margin-right: 0.5rem;
+	background: #161616;
+	border-radius: 50%;
+	text-align: center;
+	width: 2rem;
+	height: 2rem;
+}
+#contents > li .icon.white {
+	background: none;
+}
+#contents > li .icon img {
+	margin: 0.5rem;
+	width: 1rem;
+	height: 1rem;
+}
+#contents > li .icon .dot {
+	border-radius: 50%;
+	box-sizing: border-box;
+	background: #161616;
+	width: 0.6rem;
+	height: 0.6rem;
+	margin: 0.4rem auto;
+}
+#contents > li .text {
+	flex: 1;
+}
+#contents > li .text .title {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+#contents > li .text .description {
+	margin-left: 0.5rem;
+	color: #494949;
+}
+#contents > li .text ul {
+	list-style: disc;
+	padding-left: 1rem;
+}
+
+aside {
+	width: 22rem;
+	padding-left: 2rem;
+	box-sizing: border-box;
+}
+aside > section {
+	margin-bottom: 2rem;
+}
+aside > section .sectionTitle {
+	display: flex;
+	align-items: center;
+}
+
+aside > section .sectionTitle .icon {
+	position: relative;
+	z-index: 10;
+	box-sizing: border-box;
+	margin-right: 0.5rem;
+	background: #161616;
+	border-radius: 50%;
+	text-align: center;
+	width: 2rem;
+	height: 2rem;
+}
+aside > section .sectionTitle .icon img {
+	margin: 0.5rem;
+	width: 1rem;
+	height: 1rem;
+}
+aside > section .sectionTitle .title {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+aside ul {
+	padding: 0px;
+	list-style: none;
+}
+aside ul > li {
+	margin: 1rem 0px;
+}
+aside ul > li .key {
+	font-weight: 500;
+}
+aside ul > li .value {
+	font-weight: 300;
+	font-style: italic;
+}
+
+@media print {
+	body {
+		-webkit-print-color-adjust: exact;
+	}
+}
