@@ -1,6 +1,6 @@
-# Mac
 .DS_Store
+# _site is where the static generated files are copied to
+_site/
 
-# sublime
-*.sublime-project
-*.sublime-workspace
+node_modules/
+

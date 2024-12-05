@@ -1,0 +1,498 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sc",
+				"script"
+			],
+			[
+				"show",
+				"showAdd"
+			],
+			[
+				"tex",
+				"textContent"
+			],
+			[
+				"save",
+				"savedBy"
+			],
+			[
+				"--",
+				"--blue"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"--b",
+				"--brand"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"cre",
+				"createdBy"
+			],
+			[
+				"getM",
+				"getMeta"
+			],
+			[
+				"dele",
+				"deleteBookmark"
+			],
+			[
+				"up",
+				"updateBookmark"
+			],
+			[
+				"log",
+				"logIn"
+			],
+			[
+				"is",
+				"isloggedIn"
+			],
+			[
+				"get",
+				"getBookmarks"
+			],
+			[
+				"book",
+				"bookmarks"
+			],
+			[
+				"s",
+				"span"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"form",
+				"JsPrettier: Format Code"
+			],
+			[
+				"for",
+				"JsPrettier: Format Code"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/vasanth/Projects/vasanthv.github.io"
+	],
+	"file_history":
+	[
+		"/Users/vasanth/Projects/unfeed/server/scheduler.js",
+		"/Users/vasanth/Projects/unfeed/init.js",
+		"/Users/vasanth/Projects/unfeed/init-scheduler.js",
+		"/Users/vasanth/Projects/webtag/views/bookmarklet.ejs",
+		"/Users/vasanth/Projects/unfeed/init-rss-service.js",
+		"/Users/vasanth/Projects/unfeed/server/rss-fetcher.js",
+		"/Users/vasanth/Projects/unfeed/server/utils.js",
+		"/Users/vasanth/Projects/unfeed/server/archiver.js",
+		"/Users/vasanth/Projects/unfeed/views/channels.ejs",
+		"/Users/vasanth/Projects/unfeed/views/channel.ejs",
+		"/Users/vasanth/Projects/unfeed/views/about.ejs",
+		"/Users/vasanth/Projects/unfeed/server/controllers.js",
+		"/Users/vasanth/Projects/unfeed/package.json",
+		"/Users/vasanth/Projects/unfeed/assets/style.css",
+		"/Users/vasanth/Projects/chesscom-frontend/src/components/Board.vue",
+		"/Users/vasanth/Projects/unfeed/server/routes/view.js",
+		"/Users/vasanth/Projects/unfeed/views/partials/footer.ejs",
+		"/Users/vasanth/Projects/unfeed/views/faq.ejs",
+		"/Users/vasanth/Projects/unfeed/server/model.js",
+		"/Users/vasanth/Projects/chesscom-frontend/src/components/Cell.vue",
+		"/Users/vasanth/Projects/chesscom-frontend/src/components/SideBar.vue",
+		"/Users/vasanth/Projects/chesscom-frontend/src/config/constants.ts",
+		"/Users/vasanth/Projects/chesscom-frontend/src/stores/cells.ts",
+		"/Users/vasanth/Projects/chesscom-frontend/src/pages/GamePage.vue",
+		"/Users/vasanth/Projects/chesscom-frontend/src/App.vue",
+		"/Users/vasanth/Projects/webtag/server/collections.js",
+		"/Users/vasanth/Projects/unfeed/assets/robots.txt",
+		"/Users/vasanth/Projects/unfeed/assets/script.js",
+		"/Users/vasanth/Projects/unfeed/views/partials/canny.ejs",
+		"/Users/vasanth/Projects/vasanthv.github.io/resume/src/index.html",
+		"/Users/vasanth/Projects/unfeed/views/partials/html-head.ejs",
+		"/Users/vasanth/Projects/unfeed/assets/icons/favicon.svg",
+		"/Users/vasanth/Projects/blarb/server/model.js",
+		"/Users/vasanth/Projects/unfeed/server/config.js",
+		"/Users/vasanth/Projects/unfeed/views/item.ejs",
+		"/Users/vasanth/Projects/unfeed/views/account.ejs",
+		"/Users/vasanth/Projects/unfeed/views/saved.ejs",
+		"/Users/vasanth/Projects/unfeed/views/bookmarks.ejs",
+		"/Users/vasanth/Projects/unfeed/views/partials/items.ejs",
+		"/Users/vasanth/Projects/unfeed/views/feed.ejs",
+		"/Users/vasanth/Projects/unfeed/views/partials/header.ejs",
+		"/Users/vasanth/Projects/unfeed/server/routes/api.js",
+		"/Users/vasanth/Projects/unfeed/server/url-fetcher.js",
+		"/Users/vasanth/Projects/unfeed/views/import-export.ejs",
+		"/Users/vasanth/Projects/unfeed/assets/sw.js",
+		"/Users/vasanth/Projects/frontendtest/package.json",
+		"/Users/vasanth/Projects/user-emails/index.js",
+		"/Users/vasanth/Projects/user-emails/invite-old-app-users.html",
+		"/Users/vasanth/Projects/unfeed/scripts/pre-start.js",
+		"/Users/vasanth/Projects/unfeed/views/api-keys.ejs",
+		"/Users/vasanth/Projects/unfeed/server/middlewares.js",
+		"/Users/vasanth/Projects/webtag/server/routes/api.js",
+		"/Users/vasanth/Projects/webtag/server/model.js",
+		"/Users/vasanth/Projects/unfeed/server/email.js",
+		"/Users/vasanth/Projects/unfeed/views/bookmark-edit.ejs",
+		"/Users/vasanth/Projects/unfeed/views/bookmark-new.ejs",
+		"/Users/vasanth/Projects/unfeed/views/privacy.ejs",
+		"/Users/vasanth/Projects/unfeed/views/terms.ejs",
+		"/Users/vasanth/Projects/unfeed/views/pricing.ejs",
+		"/Users/vasanth/Projects/unfeed/views/login.ejs",
+		"/Users/vasanth/Projects/unfeed/views/signup.ejs",
+		"/Users/vasanth/Projects/unfeed/views/faq.ejs.html",
+		"/Users/vasanth/Projects/unfeed/views/404.ejs",
+		"/Users/vasanth/Downloads/icomoon/SVG/plus.svg",
+		"/Users/vasanth/Downloads/icomoon/SVG/search.svg",
+		"/Users/vasanth/Projects/pinggy/server/utils.js",
+		"/Users/vasanth/Projects/unfeed/views/intro.ejs",
+		"/Users/vasanth/Projects/unfeed/package-lock.json",
+		"/Users/vasanth/Projects/unfeed/README.md",
+		"/Users/vasanth/Projects/unfeed/assets/script-.js",
+		"/Users/vasanth/Projects/unfeed/assets/manifest.json",
+		"/Users/vasanth/Projects/unfeed/views/sponsor.ejs",
+		"/Users/vasanth/Projects/pinggy/server/controllers.js",
+		"/Users/vasanth/Projects/pinggy/assets/script.js",
+		"/Users/vasanth/Projects/pinggy/assets/script-.js",
+		"/Users/vasanth/Projects/pinggy/views/channels.ejs",
+		"/Users/vasanth/Projects/pinggy/server/email.js",
+		"/Users/vasanth/Projects/pinggy/server/routes/api.js",
+		"/Users/vasanth/Projects/pinggy/views/bookmark-new.ejs",
+		"/Users/vasanth/Projects/pinggy/views/feed.ejs",
+		"/Users/vasanth/Projects/pinggy/views/account.ejs",
+		"/Users/vasanth/Projects/pinggy/views/import-export.ejs",
+		"/Users/vasanth/Projects/pinggy/views/bookmark-edit.ejs",
+		"/Users/vasanth/Projects/pinggy/package.json",
+		"/Users/vasanth/Projects/webtag/assets/script.js",
+		"/Users/vasanth/Projects/pinggy/server/routes/view.js",
+		"/Users/vasanth/Projects/webtag-bookmarks-2024-11-11.html",
+		"/Users/vasanth/Projects/bookmarks_11_10_24.html",
+		"/Users/vasanth/Projects/webtag/server/helper.js",
+		"/Users/vasanth/Projects/webtag/views/account.ejs",
+		"/Users/vasanth/Projects/pinggy/views/bookmarks.ejs",
+		"/Users/vasanth/Projects/webtag/views/bookmark-edit.ejs",
+		"/Users/vasanth/Projects/pinggy/views/partials/footer.ejs",
+		"/Users/vasanth/Projects/pinggy/views/partials/header.ejs",
+		"/Users/vasanth/Downloads/favicon/favicon.svg",
+		"/Users/vasanth/Downloads/Subtract.svg",
+		"/Users/vasanth/Downloads/favicon.svg",
+		"/Users/vasanth/Projects/pinggy/views/partials/html-head.ejs",
+		"/Users/vasanth/Projects/pinggy/assets/style.css",
+		"/Users/vasanth/Projects/pinggy/server/middlewares.js",
+		"/Users/vasanth/Projects/pinggy/views/intro.ejs",
+		"/Users/vasanth/Projects/pinggy/views/signup.ejs",
+		"/Users/vasanth/Projects/pinggy/views/login.ejs",
+		"/Users/vasanth/Projects/pinggy/assets/sw.js",
+		"/Users/vasanth/Projects/pinggy/server/model.js",
+		"/Users/vasanth/Projects/pinggy/server/config.js",
+		"/Users/vasanth/Projects/pinggy-rss-main/src/model.js",
+		"/Users/vasanth/Projects/pinggy-rss-main/src/collections.js",
+		"/Users/vasanth/Projects/webtag/server/middlewares.js",
+		"/Users/vasanth/Projects/webtag/views/intro.ejs",
+		"/Users/vasanth/Projects/webtag/server/routes/views.js",
+		"/Users/vasanth/Projects/pinggy/views/html-head.ejs",
+		"/Users/vasanth/Projects/webtag/views/html-head.ejs",
+		"/Users/vasanth/Projects/pinggy/init.js",
+		"/Users/vasanth/Projects/pinggy/server/rss-fetcher.js",
+		"/Users/vasanth/Projects/pinggy/server/scheduler.js",
+		"/Users/vasanth/Projects/webtag/server/config.js",
+		"/Users/vasanth/Projects/pinggy/server/collections.js",
+		"/Users/vasanth/Projects/webtag/init.js",
+		"/Users/vasanth/Projects/webtag/package.json",
+		"/Users/vasanth/Projects/overtalk/www/styles.css",
+		"/Users/vasanth/Projects/overtalk/views/index.ejs",
+		"/Users/vasanth/Projects/webtag/scripts/pre-start.js",
+		"/Users/vasanth/Projects/webtag/scripts/generate-vapid-keys.js",
+		"/Users/vasanth/.bash_profile",
+		"/Users/vasanth/Projects/webtag/www/script.js",
+		"/Users/vasanth/Projects/webtag/views/bookmark-new.ejs",
+		"/Users/vasanth/Projects/webtag/views/contact.ejs"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+			"/Users/vasanth/Projects/unfeed,<project filters>",
+			"/Users/vasanth/Projects/unfeed/views,<project filters>",
+			"/Users/vasanth/Projects/unfeed,<project filters>",
+			"/Users/vasanth/Projects/unfeed/views,<project filters>",
+			"/Users/vasanth/Projects/unfeed,<project filters>",
+			"/Users/vasanth/Projects/unfeed/server,<project filters>",
+			"/Users/vasanth/Projects/unfeed,<project filters>",
+			"/Users/vasanth/Projects/unfeed/views,<project filters>",
+			"/Users/vasanth/Projects/unfeed,<project filters>",
+			"/Users/vasanth/Projects/unfeed/views,<project filters>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getURLContents",
+			"axios",
+			"fetchContentFromURL",
+			"initAllChannelsFetch",
+			"discord",
+			"fetchIntervalInMinutes",
+			"initAllChannelsFetch",
+			"initScheduler",
+			"newItems",
+			"underline",
+			"publishedOn",
+			"addChannel",
+			"addURL",
+			"newChannel",
+			"newFeedURL",
+			"isLoggedIn",
+			"publishedOn",
+			"guid",
+			"unsaveItem",
+			"guid",
+			"await new",
+			"Readability",
+			"findFeedURL",
+			"JSDOM",
+			"touchedOn",
+			"getItem",
+			"App",
+			"setNetworkStatus",
+			"getMe",
+			"queryParams",
+			"readUser",
+			"key",
+			"api",
+			"apik",
+			"push",
+			"CONTACT_EMAIL",
+			"PUSH_OPTIONS",
+			"fill",
+			"path",
+			"card",
+			"channel.c",
+			"$in",
+			"newItems",
+			"subscribeChannel",
+			".data",
+			"push",
+			"console",
+			"push",
+			"me",
+			"myAccount",
+			"initServiceWorker",
+			"setUpdateBookmark",
+			"redirect",
+			"toast",
+			"deleteBookmark",
+			"sort",
+			"sortOptions",
+			"addingChannel",
+			"loading",
+			"searchSubmitHandler",
+			"list",
+			"newFeedForm",
+			"--text-light"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"addURL",
+			"isLoading",
+			"--grey"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 144.0
+	},
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "personal-blog.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
