@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ title }} - Vasanth's blog</title>
+
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<div id="home" class="wrap">
+<header class="row">
+	<nav>
+		<a href="/">Home</a>
+		<span class="separator">&middot;</span>
+		<a href="/now">Now</a>
+	</nav>
+</header>
+
+<article>
+	<h1 class="title">{{ title }}</h1>
+  {{ content | safe }}
+</article>
+
+
+
+<footer>&copy; vasanthv.me</footer>
+
+</div>
+</body>
+</html>
+

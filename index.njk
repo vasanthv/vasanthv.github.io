@@ -1,0 +1,17 @@
+---
+layout: home-layout.njk
+pagination:
+  data: collections.post
+  size: 100
+  reverse: true
+  alias: posts
+---
+{% for post in posts %}
+  <article class="item row">
+
+    <div class="title">
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </div>
+    <time datetime="{{ post.date | dateIso }}" class="light">{{ post.date | dateReadable }}</time>
+  </article>
+{% endfor %}

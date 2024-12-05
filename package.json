@@ -1,0 +1,46 @@
+{
+	"name": "vasanth-blog",
+	"version": "1.0.0",
+	"description": "Vasanth's blog",
+	"scripts": {
+		"build": "npx eleventy",
+		"serve": "npx eleventy --serve",
+		"debug": "DEBUG=* npx eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vasanthv/vasanthv.github.io.git"
+	},
+	"author": "Vasanth V",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/vasanthv/vasanthv.github.io/issues"
+	},
+	"homepage": "https://github.com/vasanthv/vasanthv.github.io#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "^3.0.0",
+		"jest": "^29.7.0",
+		"moment": "^2.29.1"
+	},
+	"dependencies": {
+		"@11ty/eleventy-plugin-rss": "^2.0.2",
+		"@jest/globals": "latest"
+	},
+	"prettier": {
+		"printWidth": 120,
+		"singleQuote": false,
+		"trailingComma": "es5",
+		"tabWidth": 2,
+		"useTabs": true,
+		"overrides": [
+			{
+				"files": [
+					"*.ejs"
+				],
+				"options": {
+					"parser": "html"
+				}
+			}
+		]
+	}
+}
