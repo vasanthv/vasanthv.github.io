@@ -34,6 +34,8 @@ module.exports = function (eleventyConfig) {
 			},
 		},
 	});
+
+	eleventyConfig.setOutputDirectory("docs");
 };
 
 function extractExcerpt(article) {

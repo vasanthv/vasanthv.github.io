@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"description": "Vasanth's blog",
 	"scripts": {
-		"build": "npx eleventy",
-		"serve": "npx eleventy --serve",
+		"build": "npx @11ty/eleventy",
+		"serve": "npx @11ty/eleventy --serve",
 		"debug": "DEBUG=* npx eleventy"
 	},
 	"repository": {
