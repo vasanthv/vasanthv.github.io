@@ -34,5 +34,3 @@ Practicing mindfulness can help you observe these patterns without judgment. Ove
 It’s also helpful to embrace impermanence and flexibility. Just as people and circumstances change, so can your self-image. Instead of clinging to a fixed version of yourself, allow it to evolve naturally.
 
 When you release your attachment to self-image, you open the door to freedom. You’re no longer burdened by the need to prove yourself or maintain a facade. Instead, you can focus on living authentically, learning from experiences, and connecting with others without fear or pretense.
-
-The Buddhist teaching reminds us that attachment leads to suffering. By letting go of the attachment to our self-image, we can lighten the emotional load we carry and create space for greater peace and self-acceptance.
