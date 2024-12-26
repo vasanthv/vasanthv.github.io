@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ title }} - Vasanth's blog</title>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{{ title }} - Vasanth's blog</title>
 
-  <link rel="stylesheet" href="/assets/style.css">
-</head>
-<body>
-<div id="home" class="wrap">
-<header class="row">
-	<nav>
-		<a href="/">Home</a>
-		<span class="separator">&middot;</span>
-		<a href="/now">Now</a>
-	</nav>
-</header>
+		<link rel="stylesheet" href="/assets/style.css" />
+	</head>
+	<body>
+		<div id="home" class="wrap">
+			<header class="row">
+				<nav>
+					<a href="/">Home</a>
+					<span class="separator">&middot;</span>
+					<a href="/projects">Projects</a>
+					<span class="separator">&middot;</span>
+					<a href="/now">Now</a>
+				</nav>
+			</header>
 
-<article>
-	<h1 class="title">{{ title }}</h1>
-  {{ content | safe }}
-</article>
+			<article>
+				<h1 class="title">{{ title }}</h1>
+				{{ content | safe }}
+			</article>
 
+			<footer class="row">
+				<nav>
+					<a href="https://github.com/vasanthv" target="_blank">Github</a>
+					<span class="separator">&middot;</span>
+					<a href="https://vasanthv.me/feed.xml">RSS</a>
+					<span class="separator">&middot;</span>
+					<a href="mailto:hi@vasanthv.me">Email</a>
+				</nav>
 
-
-<footer>&copy; vasanthv.me</footer>
-
-</div>
-</body>
+				<div>&copy; vasanthv.me</div>
+			</footer>
+		</div>
+	</body>
 </html>
-
