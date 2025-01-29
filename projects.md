@@ -3,9 +3,9 @@ layout: page-layout.njk
 title: Side projects
 ---
 
-### Unfeed
+### Ahey
 
-[Unfeed](https://unfeed.net) is a free, minimal rss/atom feed reader, that shows a single chronological feed from all your favorite news, social media & blogs.
+[Ahey](https://ahey.io) a simple pub-sub system over web push. It allows users to subscribe to channels and receive messages directly to their browser without the need for an account.
 
 ### Hello
 

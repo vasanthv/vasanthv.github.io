@@ -3,15 +3,8 @@ layout: page-layout.njk
 title: Now
 ---
 
-_(Last updated: Nov-05-2024)_
+_(Last updated: Jan-29-2025)_
 
 ### Work
 
-I’m currently working full-time at **Amazon** as a front-end engineer.
-
-In my spare time, I’m dedicated to improving **Unfeed**, a minimalist RSS feed aggregator and bookmarking app. My goal is to make Unfeed as intuitive and useful as possible, focusing on features that prioritize simplicity and a clean user experience.
-
-### What’s Next
-
-- Iterating on Unfeed based on user feedback.
-- Balancing full-time work with my passion for building products in my spare time.
+I recently left my role at Amazon, where I had the privilege of working on highly scaled systems and honing my skills in front-end development. I'm currently preparing to join Quadient as a Staff Engineer, excited for the new challenges and opportunities ahead.
