@@ -1,5 +1,5 @@
 # vasanthv.github.io
 
-My personal blog
+My personal website
 
 https://vasanthv.me
