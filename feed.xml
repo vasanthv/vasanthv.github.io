@@ -11,7 +11,9 @@ layout: null
     <link>
     {{ site.url | relative_url }}</link>
     <description>
-      {{ site.description }}
+      <![CDATA[
+        {{ site.description }}
+      ]]>
     </description>
 
     {% assign articles = site.articles | sort: "date" | reverse %}
@@ -32,8 +34,8 @@ layout: null
       </pubDate>
       <description>
         <![CDATA[
-      {{ article.content | markdownify | xml_escape }}
-    ]]>
+          {{ article.content | markdownify | xml_escape }}
+        ]]>
       </description>
     </item>
     {% endfor %}

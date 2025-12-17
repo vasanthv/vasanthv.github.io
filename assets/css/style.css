@@ -12,18 +12,16 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-header nav a {
+nav a {
   text-decoration: none;
 }
-header nav a:hover {
+nav a:hover {
   text-decoration: underline;
 }
-header nav span {
+nav span {
   margin: auto 0.5rem;
 }
 
 footer {
-  margin-top: 3rem;
-  font-size: 0.9rem;
-  color: #666;
+  text-align: center;
 }
