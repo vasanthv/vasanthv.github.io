@@ -8,6 +8,8 @@ date: 2025-11-14
 
 _November 14, 2025_
 
+> A short story by Vasanth
+
 My whole neighbourhood in Chennai is talking about this new fancy dosa shop that opened on the next street. A beautiful Saturday morning like this is the perfect time for a good breakfast after grinding through another week. I’m too lazy to drive my two-wheeler myself, and honestly, I’ve gotten comfortable with my laziness, especially on Saturdays, which bring out my worst. Let me call Kathir. I waited for him to answer my call, but he didn’t. A small knot of annoyance formed, but I’m too persistent to give up. He picked up the second time. “Hey Kathir, what’s up?” I asked, forcing genuine interest into my voice. I didn’t want to sound needy by asking for help right away. I barely registered his reply, something about a problem at his sister’s house, because my mind was already calculating how to get what I wanted. I needed to frame this request so it wouldn’t sound like begging, so he couldn’t possibly say no. “Dude, you said you wanted to try some new restaurants, right? My neighbour told me the new Famous Dosa Kadai is really good. Let’s go there for breakfast.”
 
 He drew out a long “Hmmm... now?” That hesitation in his voice sent a small jolt of worry through me. He sounded like he wasn’t ready, like he wanted to postpone. No, no, no. Not happening. “Yeah, let’s go now. I have some work around 11 o’clock. If we miss this, we can only go next week.” The lie came easily, smoothly. “Okay dude, let’s go then. I’ll be there in 30 minutes.”
