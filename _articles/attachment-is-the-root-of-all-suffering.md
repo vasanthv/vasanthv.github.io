@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Attachment is the Root of All Suffering
+date: 2024-12-12
 order: 2
 ---
+
+# Attachment is the Root of All Suffering
+
+_December 12, 2024_
 
 We all know about the Buddhist philosophy that attachment is the root of all suffering. While this idea is often applied broadly to relationships, possessions, or desires. I want to explore a very specific type of attachment today: attachment to the self-image we hold of ourselves.
 

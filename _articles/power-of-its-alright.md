@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Power of it's alright
+date: 2024-12-09
 order: 1
 ---
+
+# Power of it's alright
+
+_December 9, 2024_
 
 In our fast-paced, hyperconnected world, misunderstandings and mistakes are inevitable. It could be a friend running late, a colleague missing a deadline, or a stranger bumping into you on the street. In these moments, a simple phrase has the power to diffuse tension, foster understanding, and build bridges: “It’s alright.”
 

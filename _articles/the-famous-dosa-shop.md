@@ -1,8 +1,13 @@
 ---
 layout: default
 title: The Famous Dosa Shop
+date: 2025-11-14
 order: 3
 ---
+
+# The Famous Dosa Shop
+
+_November 14, 2025_
 
 My whole neighbourhood in Chennai is talking about this new fancy dosa shop that opened on the next street. A beautiful Saturday morning like this is the perfect time for a good breakfast after grinding through another week. I’m too lazy to drive my two-wheeler myself, and honestly, I’ve gotten comfortable with my laziness, especially on Saturdays, which bring out my worst. Let me call Kathir. I waited for him to answer my call, but he didn’t. A small knot of annoyance formed, but I’m too persistent to give up. He picked up the second time. “Hey Kathir, what’s up?” I asked, forcing genuine interest into my voice. I didn’t want to sound needy by asking for help right away. I barely registered his reply, something about a problem at his sister’s house, because my mind was already calculating how to get what I wanted. I needed to frame this request so it wouldn’t sound like begging, so he couldn’t possibly say no. “Dude, you said you wanted to try some new restaurants, right? My neighbour told me the new Famous Dosa Kadai is really good. Let’s go there for breakfast.”
 

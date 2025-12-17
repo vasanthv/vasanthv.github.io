@@ -1,7 +1,16 @@
 title: Vasanth V
+description: Articles without dates
+url: https://vasanthv.github.io
 markdown: kramdown
+
+plugins:
+  - jekyll-feed
 
 collections:
   articles:
     output: true
     permalink: /:name/
+
+feed:
+  collections:
+    - articles

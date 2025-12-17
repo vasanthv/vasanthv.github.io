@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>
-    {{ page.title }} |
-    {{ site.title }}
+    {{ site.title }} /
+    {{ page.title }}
   </title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
@@ -13,24 +13,19 @@
 <body>
 
   <header>
-    <h1><a href="{{ '/' | relative_url }}">
-        {{ site.title }}</a></h1>
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/now/' | relative_url }}">Now</a>
+      <a href="{{ '/now' | relative_url }}">Now</a>
     </nav>
   </header>
-
   <main>
     {{ content }}
   </main>
 
   <footer>
-    <p>©
-      {{ site.time | date: "%Y" }}
-    </p>
+    <a href="mailto:hi@vasanthv.me">Say Hi</a>
+    <a href="{{ '/feed.xml' | relative_url }}">Feed</a>
   </footer>
-
 </body>
 
 </html>
