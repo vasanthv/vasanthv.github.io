@@ -1,0 +1,42 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>
+      {{ site.title }}
+    </title>
+    <link>
+    {{ site.url | relative_url }}</link>
+    <description>
+      {{ site.description }}
+    </description>
+
+    {% assign articles = site.articles | sort: "date" | reverse %}
+    {% for article in articles %}
+    <item>
+      <title>
+        {{ article.title }}
+      </title>
+      <link>
+      {{ site.url }}
+      {{ article.url }}</link>
+      <guid>
+        {{ site.url }}
+        {{ article.url }}
+      </guid>
+      <pubDate>
+        {{ article.date | date_to_rfc822 }}
+      </pubDate>
+      <description>
+        <![CDATA[
+          {{ article.content | markdownify }}
+        ]]>
+      </description>
+    </item>
+    {% endfor %}
+
+  </channel>
+</rss>

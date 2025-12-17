@@ -2,7 +2,6 @@
 layout: default
 title: The Famous Dosa Shop
 date: 2025-11-14
-order: 3
 ---
 
 # The Famous Dosa Shop

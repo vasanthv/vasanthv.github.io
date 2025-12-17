@@ -2,7 +2,6 @@
 layout: default
 title: Power of it's alright
 date: 2024-12-09
-order: 1
 ---
 
 # Power of it's alright
