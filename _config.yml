@@ -1,5 +1,5 @@
 title: Vasanth V
-description: Articles without dates
+description: A place where I write junk, chase random thoughts, and try to make sense of my chaotically organized brain. Keeping things simple & stupid.
 url: https://vasanthv.github.io
 markdown: kramdown
 
@@ -14,3 +14,5 @@ collections:
 feed:
   collections:
     - articles
+  sort_by: "date"
+  order: "descending"
