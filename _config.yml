@@ -1,0 +1,7 @@
+title: Vasanth V
+markdown: kramdown
+
+collections:
+  articles:
+    output: true
+    permalink: /:name/
