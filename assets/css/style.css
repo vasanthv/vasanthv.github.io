@@ -1,17 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+
 body {
-  font-family: system-ui, sans-serif;
-  max-width: 800px;
+  font-family: "Roboto Serif", serif;
+  max-width: 720px;
   margin: 2rem auto;
   padding: 0 1rem;
+  line-height: 1.5;
+  transition: background 0.5s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 header nav a {
-  margin-right: 1rem;
   text-decoration: none;
 }
-
 header nav a:hover {
   text-decoration: underline;
+}
+header nav span {
+  margin: auto 0.5rem;
 }
 
 footer {
