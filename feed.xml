@@ -18,7 +18,7 @@ layout: null
     {% for article in articles %}
     <item>
       <title>
-        {{ article.title }}
+        {{ article.title | xml_escape }}
       </title>
       <link>
       {{ site.url }}
@@ -32,8 +32,8 @@ layout: null
       </pubDate>
       <description>
         <![CDATA[
-          {{ article.content | markdownify }}
-        ]]>
+      {{ article.content | markdownify | xml_escape }}
+    ]]>
       </description>
     </item>
     {% endfor %}
