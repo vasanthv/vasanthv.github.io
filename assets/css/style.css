@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
 
+html {
+  font-size: 1.1rem;
+}
+
 body {
   font-family: "Roboto Serif", serif;
   max-width: 720px;
@@ -11,7 +15,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
-
 nav a {
   text-decoration: none;
 }
@@ -21,7 +24,9 @@ nav a:hover {
 nav span {
   margin: auto 0.5rem;
 }
-
+main {
+  min-height: 60vh;
+}
 footer {
   text-align: center;
 }
