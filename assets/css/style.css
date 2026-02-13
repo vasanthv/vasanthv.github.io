@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
-
 html {
   font-size: 1.1rem;
 }
 
 body {
-  font-family: "Roboto Serif", serif;
+  font-family: system-ui, sans-serif;
   max-width: 720px;
   margin: 2rem auto;
   padding: 0 1rem;
@@ -18,10 +16,10 @@ body {
 a {
   color: #1d64f3;
 }
-nav a {
+a {
   text-decoration: none;
 }
-nav a:hover {
+a:hover {
   text-decoration: underline;
 }
 nav span {
@@ -38,4 +36,26 @@ blockquote {
 }
 blockquote p {
   padding: 0.5rem 1rem;
+}
+
+ul#list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul#list li {
+  display: flex;
+}
+ul#list li:hover,
+ul#list li:focus {
+  text-decoration: underline;
+}
+ul#list li a {
+  flex: 1;
+}
+ul#list li span {
+  font-size: 0.8rem;
+  font-family: monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
 }

@@ -9,11 +9,11 @@ Welcome to my corner of the internet - a place where I write junk, chase random 
 
 Keeping things simple & stupid.
 
-<ul>
+<ul id="list">
 {% assign sorted = site.articles | sort: "date" | reverse %}
 {% for article in sorted %}
     <li>
-  <a href="{{ article.url }}">{{ article.title }}</a>
+  <a href="{{ article.url }}">{{ article.title }}</a><span>{{ article.date | date: "%b %d, %Y" }}</span>
     </li>
 {% endfor %}
 </ul>

@@ -3,7 +3,7 @@ layout: default
 title: Now
 ---
 
-_December 17, 2025_
+_February 13, 2025_
 
 ### Work
 
@@ -11,4 +11,4 @@ By day, I’m a staff developer at Quadient, where I spend my time designing sys
 
 ### Side project
 
-Outside of work, I’m tinkering with a side project I’m pretty excited about, a new kind of social app focused on helping people make online friends who genuinely match their vibe. Less chaos, more real connections, and zero pressure to be anyone other than yourself.
+Outside of work, I’m tinkering with a side project: a simple, free RSS reader app that lets anyone follow any feed. It mostly came from trying to solve my own problem. [https://veread.com](https://veread.com)
