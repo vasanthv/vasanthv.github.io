@@ -3,7 +3,7 @@ layout: default
 title: Now
 ---
 
-_February 22, 2025_
+_February 23, 2025_
 
 ### Work
 
@@ -11,4 +11,4 @@ By day, I’m a staff developer at Quadient, where I spend my time designing sys
 
 ### Side project
 
-Outside of work, I’m experimenting with a side project: a social app that brings people together in small, 10-person discussion groups. [https://veenew.com](https://veenew.com)
+Outside of work, I’m tinkering with a side project: a simple, free RSS reader app that lets anyone follow any feed. It mostly came from trying to solve my own problem. [https://veenew.com](https://veenew.com)
