@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Vasanth.V
 show_title: false
 description: Personal site and blog of Vasanth.
 ---
