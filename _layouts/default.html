@@ -7,7 +7,17 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0b0b">
 
-  {%- seo -%}
+  {%- comment -%}
+    Own the <title> so the home page reads as just the name, with no
+    "– site.title" suffix. seo still handles description, og: and twitter:.
+  {%- endcomment -%}
+  {%- if page.url == '/' -%}
+    <title>{{ page.title | default: site.title }}</title>
+  {%- else -%}
+    <title>{{ page.title }} &#8211; {{ site.title }}</title>
+  {%- endif -%}
+
+  {%- seo title=false -%}
   {%- feed_meta -%}
 
   <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
