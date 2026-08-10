@@ -1,0 +1,53 @@
+title: Vasanth
+author: Vasanth
+email: hello@vasanthv.net
+description: >-
+  Personal site and blog of Vasanth — notes on software, the web,
+  and things worth building.
+
+# Change this to your custom domain if you add one later.
+url: "https://vasanthv.github.io"
+baseurl: ""
+
+# Clean URLs: /blog/hello-world/ instead of /blog/hello-world.html
+permalink: /blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+
+feed:
+  path: feed.xml
+
+# One page per tag at /blog/tag/<name>/
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag
+  permalinks:
+    tag: /blog/tag/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github

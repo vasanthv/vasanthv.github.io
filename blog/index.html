@@ -1,0 +1,27 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+description: My writings
+---
+
+<p class="page-lede">
+  <a href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>.
+</p>
+
+{% if site.posts.size > 0 %}
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-list__item">
+    <a class="post-list__link" href="{{ post.url | relative_url }}">
+      <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%b %-d, %Y" }}</time>
+      <span class="post-list__title">
+        {{ post.title }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>Nothing published yet.</p>
+{% endif %}

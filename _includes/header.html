@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} — home"{% if page.url == '/' %} aria-current="page"{% endif %}>
+      <svg class="brand__mark" viewBox="0 0 100 100" width="22" height="22" aria-hidden="true">
+        <path d="M90 40L50 80L10 40L30 20L50 40L70 20L90 40Z" fill="currentColor"></path>
+      </svg>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} aria-current="page"{% endif %}>Blog</a>
+      <a href="mailto:{{ site.email }}">Contact</a>
+    </nav>
+  </div>
+</header>

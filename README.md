@@ -1,2 +1,5 @@
 # vasanthv.github.io
-my personal website
+
+My personal website & blog
+
+https://vasanthv.net

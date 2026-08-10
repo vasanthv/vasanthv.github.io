@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="prose" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {% if page.tags and page.tags.size > 0 %}
+        <span aria-hidden="true">·</span>
+        {% for tag in page.tags %}<a class="tag" href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">{{ tag }}</a>{% endfor %}
+      {% endif %}
+    </p>
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+  </header>
+
+  <div itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>
+
+<nav class="post-nav" aria-label="More posts">
+  {% if page.previous %}
+    <a class="post-nav__link" href="{{ page.previous.url | relative_url }}">
+      <span class="post-nav__label">Previous</span>
+      <span>{{ page.previous.title }}</span>
+    </a>
+  {% endif %}
+  {% if page.next %}
+    <a class="post-nav__link post-nav__link--next" href="{{ page.next.url | relative_url }}">
+      <span class="post-nav__label">Next</span>
+      <span>{{ page.next.title }}</span>
+    </a>
+  {% endif %}
+</nav>
