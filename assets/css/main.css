@@ -152,8 +152,6 @@ a:hover {
 
 /* ------------------------------ main ----------------------------- */
 
-/* With no rules on the header or footer, whitespace alone separates the
-   three bands — so it has to be unambiguous. */
 main.wrap {
   flex: 1 0 auto;
   padding-block: 3rem 7rem;
@@ -483,7 +481,6 @@ a.tag:hover {
 }
 
 /* ------------------------ syntax highlighting -------------------- */
-/* Deliberately monochrome: weight and opacity instead of colour. */
 
 .highlight .c,
 .highlight .c1,

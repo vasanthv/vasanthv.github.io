@@ -7,10 +7,6 @@
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0b0b">
 
-  {%- comment -%}
-    Own the <title> so the home page reads as just the name, with no
-    "– site.title" suffix. seo still handles description, og: and twitter:.
-  {%- endcomment -%}
   {%- if page.url == '/' -%}
     <title>{{ page.title | default: site.title }}</title>
   {%- else -%}
@@ -34,6 +30,10 @@
   </main>
 
   {% include footer.html %}
+
+  {% if jekyll.environment == "production" %}
+    <script async src="https://cabin.vasanthv.net/hello.js"></script>
+  {% endif %}
 </body>
 
 </html>

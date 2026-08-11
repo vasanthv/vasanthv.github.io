@@ -5,11 +5,9 @@ description: >-
   Personal site and blog of Vasanth — notes on software, the web,
   and things worth building.
 
-# Change this to your custom domain if you add one later.
 url: "https://vasanthv.net"
 baseurl: ""
 
-# Clean URLs: /blog/hello-world/ instead of /blog/hello-world.html
 permalink: /blog/:title/
 
 markdown: kramdown
@@ -27,7 +25,6 @@ plugins:
 feed:
   path: feed.xml
 
-# One page per tag at /blog/tag/<name>/
 jekyll-archives:
   enabled:
     - tags
