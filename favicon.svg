@@ -1,9 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" width="100" height="100">
-<style>
-  path { fill: #000; }
-  @media (prefers-color-scheme: dark) {
-    path { fill: #fff; }
-  }
-</style>
-<path d="M90 40L50 80L10 40L30 20L50 40L70 20L90 40Z"></path>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    path {
+      fill: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: #fff;
+      }
+    }
+  </style>
+  <path d="M26.1904 21C23.4178 23.5667 19.7783 24.9922 16 24.9922C12.2217 24.9922 8.58218 23.5667 5.80957 21L7.16992 19.5303C9.57269 21.7539 12.7262 22.9893 16 22.9893C19.2738 22.9893 22.4273 21.7539 24.8301 19.5303L26.1904 21Z" fill="black" />
+  <path d="M13.4102 12.71L12 14.1201L8.7002 10.8203L5.41016 14.1201L4 12.71L8.7002 8L13.4102 12.71Z" fill="black" />
+  <path d="M27.71 12.2998L26.2998 13.71L23 10.4102L19.71 13.71L18.2998 12.2998L23 7.58984L27.71 12.2998Z" fill="black" />
 </svg>
