@@ -120,6 +120,21 @@ main.wrap--bare {
   padding-top: 5rem;
 }
 
+.backlink {
+  padding-block: 3.5rem 0;
+  font-size: 0.95rem;
+}
+
+.backlink a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.backlink a:hover {
+  color: var(--fg);
+}
+
 .prose > *:first-child {
   margin-top: 0;
 }
@@ -416,6 +431,10 @@ a.tag:hover {
 
   main.wrap--bare {
     padding-top: 3.5rem;
+  }
+
+  .backlink {
+    padding-block: 2.5rem 0;
   }
 
   .site-footer__inner {

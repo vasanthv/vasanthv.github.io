@@ -22,7 +22,13 @@
 </head>
 
 <body>
-  {% unless page.layout == 'post' %}{% include header.html %}{% endunless %}
+  {% if page.url == '/' %}
+    {% include header.html %}
+  {% elsif page.layout != 'post' %}
+    <div class="wrap backlink">
+      <a href="{{ '/' | relative_url }}">&larr; {{ site.title }}</a>
+    </div>
+  {% endif %}
 
   <main class="wrap{% if page.layout == 'post' %} wrap--bare{% endif %}" id="content">
     {{ content }}
