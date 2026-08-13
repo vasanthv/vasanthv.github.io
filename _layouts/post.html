@@ -7,6 +7,7 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%B %-d, %Y" }}
       </time>
+      <span>by <a href="{{ '/' | relative_url }}" rel="author" itemprop="author">{{ site.author }}</a></span>
       {% if page.tags and page.tags.size > 0 %}
         <span aria-hidden="true">·</span>
         {% for tag in page.tags %}<a class="tag" href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}">{{ tag }}</a>{% endfor %}

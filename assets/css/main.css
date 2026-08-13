@@ -116,6 +116,10 @@ main.wrap {
   padding-block: 3rem 7rem;
 }
 
+main.wrap--bare {
+  padding-top: 5rem;
+}
+
 .prose > *:first-child {
   margin-top: 0;
 }
@@ -308,6 +312,11 @@ ul.post-list {
   color: var(--muted);
 }
 
+.post-meta a[rel="author"] {
+  color: var(--fg);
+  font-weight: 600;
+}
+
 a.tag {
   color: inherit;
   text-decoration: none;
@@ -403,6 +412,10 @@ a.tag:hover {
 
   main.wrap {
     padding-block: 2.5rem 5rem;
+  }
+
+  main.wrap--bare {
+    padding-top: 3.5rem;
   }
 
   .site-footer__inner {

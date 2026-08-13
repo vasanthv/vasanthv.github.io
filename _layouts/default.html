@@ -22,9 +22,9 @@
 </head>
 
 <body>
-  {% include header.html %}
+  {% unless page.layout == 'post' %}{% include header.html %}{% endunless %}
 
-  <main class="wrap" id="content">
+  <main class="wrap{% if page.layout == 'post' %} wrap--bare{% endif %}" id="content">
     {{ content }}
   </main>
 
