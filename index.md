@@ -2,7 +2,7 @@
 layout: page
 title: Vasanth.V
 show_title: false
-description: Personal site and blog of Vasanth.
+description: Keeping things simple and stupid.
 ---
 
 Welcome to my corner of the internet - a place where I write junk, chase random thoughts, and try to make sense of my chaotically organized brain.
