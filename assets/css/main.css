@@ -395,6 +395,24 @@ a.tag:hover {
   color: var(--muted);
 }
 
+/* -------------------------- post contact ------------------------- */
+
+.post-contact {
+  margin-top: 3.5rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--rule);
+}
+
+.post-contact__label {
+  margin: 0 0 1rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.post-contact .letterbird-embed {
+  margin-inline: 0;
+}
+
 /* ----------------------------- footer ---------------------------- */
 
 .site-footer {
@@ -452,6 +470,11 @@ a.tag:hover {
   .post-nav__link--next {
     margin-left: 0;
     text-align: left;
+  }
+
+  .post-contact {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
   }
 }
 
