@@ -1,0 +1,15 @@
+<ul class="post-list">
+  {% for post in include.posts %}
+  <li class="post-list__item">
+    {% if post.link %}
+    <a class="post-list__link post-list__link--external" href="{{ post.link }}" target="_blank" rel="noopener">
+      <span class="post-list__title">{{ post.title }}</span><span class="linkout" aria-hidden="true">&#8599;</span>
+    </a><a class="post-list__perma" href="{{ post.url | relative_url }}" aria-label="Permalink: {{ post.title | escape }}"><time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></a>
+    {% else %}
+    <a class="post-list__link" href="{{ post.url | relative_url }}">
+      <span class="post-list__title">{{ post.title }}</span><time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    </a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

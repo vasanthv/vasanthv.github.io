@@ -73,10 +73,50 @@ a:hover {
   text-decoration-color: currentColor;
 }
 
+.brand,
+.rss,
+.backlink a,
+.post-list__link,
+.post-list__perma,
+.post-title__link,
+.post-nav__link,
+a.tag {
+  text-decoration: none;
+}
+
+.rss,
+.backlink a {
+  color: var(--muted);
+  transition: color 0.15s ease;
+}
+
+.rss:hover,
+.backlink a:hover,
+.post-source a:hover,
+.post-list__perma:hover .post-list__date {
+  color: var(--fg);
+}
+
 :focus-visible {
   outline: 2px solid var(--fg);
   outline-offset: 3px;
   border-radius: 2px;
+}
+
+/* --------------------------- small text -------------------------- */
+
+.post-meta,
+.post-list__date,
+.post-source,
+.archive-kicker {
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.post-nav__label,
+.post-contact__label {
+  font-size: 0.88rem;
+  color: var(--muted);
 }
 
 /* ----------------------------- header ---------------------------- */
@@ -86,12 +126,14 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+}
+
+.site-header__inner,
+.backlink {
   padding-block: 3.5rem 0;
 }
 
 .brand {
-  text-decoration: none;
-  color: var(--fg);
   font-size: 2.35rem;
   font-weight: 700;
   letter-spacing: -0.035em;
@@ -100,13 +142,6 @@ a:hover {
 
 .rss {
   display: inline-flex;
-  color: var(--muted);
-  text-decoration: none;
-  transition: color 0.15s ease;
-}
-
-.rss:hover {
-  color: var(--fg);
 }
 
 /* ------------------------------ main ----------------------------- */
@@ -121,18 +156,7 @@ main.wrap--bare {
 }
 
 .backlink {
-  padding-block: 3.5rem 0;
   font-size: 0.95rem;
-}
-
-.backlink a {
-  color: var(--muted);
-  text-decoration: none;
-  transition: color 0.15s ease;
-}
-
-.backlink a:hover {
-  color: var(--fg);
 }
 
 .prose > *:first-child {
@@ -205,7 +229,6 @@ main.wrap--bare {
   font-family: var(--serif);
   font-size: 1.12rem;
   font-style: italic;
-  color: var(--fg);
 }
 
 .prose blockquote p:last-child {
@@ -218,18 +241,20 @@ main.wrap--bare {
 
 /* code */
 
+.prose code,
+.prose pre {
+  background: var(--shade);
+  border: 1px solid var(--rule);
+}
+
 .prose code {
   font-family: var(--mono);
   font-size: 0.86em;
-  background: var(--shade);
-  border: 1px solid var(--rule);
   border-radius: 4px;
   padding: 0.1em 0.35em;
 }
 
 .prose pre {
-  background: var(--shade);
-  border: 1px solid var(--rule);
   border-radius: 6px;
   padding: 1rem 1.1rem;
   overflow-x: auto;
@@ -283,15 +308,10 @@ ul.post-list {
   margin-top: 0.5rem;
 }
 
-.post-list__link {
-  text-decoration: none;
-}
-
 .post-list__title {
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: -0.025em;
-  text-decoration: none;
 }
 
 .post-list__link:hover .post-list__title {
@@ -302,8 +322,6 @@ ul.post-list {
 
 .post-list__date {
   margin-left: 0.6rem;
-  font-size: 0.92rem;
-  color: var(--muted);
   white-space: nowrap;
 }
 
@@ -323,8 +341,6 @@ ul.post-list {
   align-items: baseline;
   gap: 0.5rem;
   margin: 0 0 0.9rem;
-  font-size: 0.92rem;
-  color: var(--muted);
 }
 
 .post-meta a[rel="author"] {
@@ -333,8 +349,6 @@ ul.post-list {
 }
 
 a.tag {
-  color: inherit;
-  text-decoration: none;
   border-bottom: 1px solid transparent;
 }
 
@@ -348,27 +362,66 @@ a.tag:hover {
   opacity: 0.6;
 }
 
+/* --------------------------- link posts -------------------------- */
+
+.linkout {
+  margin-left: 0.3em;
+  font-size: 0.72em;
+  font-weight: 400;
+  color: var(--muted);
+  vertical-align: 0.12em;
+}
+
+.post-list__link--external:hover .linkout {
+  color: inherit;
+}
+
+.post-title .linkout {
+  display: inline-block;
+  margin-left: 0.25em;
+  font-size: 0.6em;
+  vertical-align: 0.28em;
+}
+
+.post-title__link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.08em;
+  text-decoration-color: var(--rule);
+}
+
+.post-source {
+  margin: 0.75rem 0 0;
+}
+
+.post-source::before {
+  content: "\2192";
+  margin-right: 0.4em;
+}
+
 /* --------------------------- tag archive ------------------------- */
 
 .archive-kicker {
   margin: 0 0 0.6rem;
-  font-size: 0.92rem;
-  color: var(--muted);
 }
 
 .archive-kicker + .page-title {
   margin-bottom: 0.75rem;
 }
 
-/* ---------------------------- post nav --------------------------- */
+/* --------------------- post nav & reply footer ------------------- */
+
+.post-nav,
+.post-contact {
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--rule);
+}
 
 .post-nav {
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
   margin-top: 4rem;
-  padding-top: 1.75rem;
-  border-top: 1px solid var(--rule);
   font-size: 0.95rem;
 }
 
@@ -376,7 +429,6 @@ a.tag:hover {
   display: grid;
   gap: 0.2rem;
   max-width: 15rem;
-  text-decoration: none;
   letter-spacing: -0.01em;
 }
 
@@ -390,23 +442,12 @@ a.tag:hover {
   text-align: right;
 }
 
-.post-nav__label {
-  font-size: 0.88rem;
-  color: var(--muted);
-}
-
-/* -------------------------- post contact ------------------------- */
-
 .post-contact {
   margin-top: 3.5rem;
-  padding-top: 1.75rem;
-  border-top: 1px solid var(--rule);
 }
 
 .post-contact__label {
   margin: 0 0 1rem;
-  font-size: 0.88rem;
-  color: var(--muted);
 }
 
 .post-contact .letterbird-embed {
@@ -424,10 +465,6 @@ a.tag:hover {
   padding-block: 0 3rem;
 }
 
-.site-footer a {
-  text-decoration-color: var(--rule);
-}
-
 /* --------------------------- responsive -------------------------- */
 
 @media (max-width: 34rem) {
@@ -435,7 +472,8 @@ a.tag:hover {
     font-size: 17px;
   }
 
-  .site-header__inner {
+  .site-header__inner,
+  .backlink {
     padding-block: 2.5rem 0;
   }
 
@@ -449,10 +487,6 @@ a.tag:hover {
 
   main.wrap--bare {
     padding-top: 3.5rem;
-  }
-
-  .backlink {
-    padding-block: 2.5rem 0;
   }
 
   .site-footer__inner {
@@ -512,7 +546,10 @@ a.tag:hover {
 .highlight .se,
 .highlight .si,
 .highlight .sx,
-.highlight .sr {
+.highlight .sr,
+.highlight .m,
+.highlight .mi,
+.highlight .mf {
   opacity: 0.78;
 }
 
@@ -522,10 +559,4 @@ a.tag:hover {
   text-decoration: underline;
   text-decoration-color: var(--rule);
   text-underline-offset: 0.2em;
-}
-
-.highlight .m,
-.highlight .mi,
-.highlight .mf {
-  opacity: 0.78;
 }

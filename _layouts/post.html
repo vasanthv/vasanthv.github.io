@@ -2,7 +2,11 @@
 layout: default
 ---
 
-<article class="prose" itemscope itemtype="https://schema.org/BlogPosting">
+<article
+  class="prose{% if page.link %} prose--link{% endif %}"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
   <header class="post-header">
     <p class="post-meta">
       <time
@@ -25,7 +29,30 @@ layout: default
         >{{ tag }}</a
       >{% endfor %} {% endif %}
     </p>
-    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+    <h1 class="post-title" itemprop="headline">
+      {%- if page.link -%}
+      <a
+        class="post-title__link"
+        href="{{ page.link }}"
+        target="_blank"
+        rel="noopener"
+        >{{ page.title }}<span class="linkout" aria-hidden="true"
+          >&#8599;</span
+        ></a
+      >
+      {%- else -%}
+      {{ page.title }}
+      {%- endif -%}
+    </h1>
+
+    {%- if page.link %}
+    <p class="post-source">
+      <a href="{{ page.link }}" target="_blank" rel="noopener"
+        >{{ page.link | split: '//' | last | split: '/' | first | remove_first:
+        'www.' }}</a
+      >
+    </p>
+    {%- endif %}
   </header>
 
   <div itemprop="articleBody">{{ content }}</div>
