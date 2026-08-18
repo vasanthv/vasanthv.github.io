@@ -16,11 +16,11 @@ Then Elon Musk bought Twitter, and for me, that was the final nail in the coffin
 
 After Twitter, I tried Pebble (formerly T2), Bluesky, and Mastodon, but none of them ever felt like home. Eventually, I stopped using all of them. I even tried running my own ActivityPub-based service for a while, but honestly, it wasn't worth the time and effort.
 
-People often talk about these new platforms as the saviours of social media, but, to be honest, I don't think any of them have solved the fundamental problem. If anything, they have added another layer of complexity to an already complicated social web.
-
 Even as a software engineer, understanding things like ActivityPub and AT Protocol wasn't particularly easy. I can only imagine how confusing these concepts must be for regular users. And now, the people I want to follow are scattered across different platforms that don't always interoperate easily. I have to rely on various hacks and workarounds just to make these different pieces work together.
 
 In my opinion, open protocols and decentralised social platforms, despite their good intentions, have made the social web more fragmented rather than less.
+
+People often talk about these new platforms as the saviours of social media, but, to be honest, I don't think any of them have solved the fundamental problem. If anything, they have added another layer of complexity to an already complicated social web.
 
 And perhaps that's why microblogging has lost its charm - at least for me.
 
