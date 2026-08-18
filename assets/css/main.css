@@ -142,6 +142,22 @@ a.tag {
 
 .rss {
   display: inline-flex;
+  place-items: center;
+  padding: 0.4375rem;
+  margin-inline-end: -0.4375rem;
+  border-radius: 50%;
+  background: transparent;
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.rss:hover {
+  background: var(--shade);
+}
+
+.rss:focus-visible {
+  border-radius: 50%;
 }
 
 /* ------------------------------ main ----------------------------- */
