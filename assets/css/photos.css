@@ -1,0 +1,137 @@
+/* ---------------------------- gallery ---------------------------- */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 0.5rem;
+  margin: 2.5rem 0 0;
+}
+
+.page-lede + .gallery {
+  margin-top: 0;
+}
+
+.gallery__tile {
+  display: block;
+  padding: 0;
+  border: 1px solid var(--rule);
+  background: var(--shade);
+  cursor: zoom-in;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.gallery__tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition:
+    transform 0.35s ease,
+    opacity 0.15s ease;
+}
+
+.gallery__tile:hover img {
+  transform: scale(1.04);
+  opacity: 0.9;
+}
+
+/* --------------------------- lightbox ---------------------------- */
+
+body:has(.lightbox[open]) {
+  overflow: hidden;
+}
+
+.lightbox {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+}
+
+.lightbox::backdrop {
+  background: rgba(0, 0, 0, 0.95);
+}
+
+.lightbox__figure {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 3.5rem 1rem;
+}
+
+.lightbox__img {
+  max-width: min(100%, 68rem);
+  max-height: calc(100dvh - 8rem);
+  object-fit: contain;
+  cursor: zoom-out;
+}
+
+.lightbox__caption {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.lightbox__btn {
+  position: absolute;
+  display: inline-flex;
+  place-items: center;
+  padding: 0.6rem;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.lightbox__btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.lightbox__btn:focus-visible {
+  outline-color: #fff;
+  border-radius: 50%;
+}
+
+.lightbox__btn--close {
+  top: 1rem;
+  right: 1rem;
+}
+
+.lightbox__btn--prev {
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+}
+
+.lightbox__btn--next {
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+
+/* --------------------------- responsive -------------------------- */
+
+@media (max-width: 34rem) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+  }
+
+  .lightbox__figure {
+    padding: 4rem 0.5rem;
+  }
+}

@@ -34,6 +34,9 @@
   </script>
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {%- for stylesheet in page.styles %}
+  <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+  {%- endfor %}
 </head>
 
 <body>
