@@ -1,7 +1,7 @@
 ---
 title: "Back from camping"
 date: 2026-08-10
-tags: [blog]
+tags: [life]
 ---
 
 I’m back from a two-day camping trip.

@@ -1,7 +1,7 @@
 ---
 title: "Dark sky preserve"
 date: 2026-08-13
-tags: [blog]
+tags: [life]
 ---
 
 I went to the Torrance Barrens Dark-Sky Preserve yesterday to watch the Perseids meteor shower. Oh man, what a drive it was!
