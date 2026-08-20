@@ -9,7 +9,7 @@ I have 2 MacBooks, 1 iPad, 1 iPhone, 1 Apple Watch, and 1 pair of AirPods.
 
 At any given time, at least one of them is dead and needs charging. I don't worry too much about my MacBooks and iPad because I don't carry them around. They mostly stay near a power socket. The problem is the other three devices. I carry them everywhere, so I have to constantly make sure they are charged.
 
-I have to admit, I am terrible at charging my devices. My phone would often be dead if my wife didn't remind me to charge it.
+I have to admit, I’m terrible at keeping my devices charged. My phone would often be dead if my wife didn’t remind me to charge it. Another problem is that I have to carry all the different chargers with me wherever I go.
 
 So, I have two options.
 
