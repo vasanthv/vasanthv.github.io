@@ -12,6 +12,10 @@ photos:
     alt: ""
   - src: /assets/images/IMG_1081.jpeg
     alt: ""
+  - src: /assets/images/IMG_1209.jpeg
+    alt: ""
+  - src: /assets/images/IMG_1211.jpeg
+    alt: ""
 ---
 
 <div class="gallery">
