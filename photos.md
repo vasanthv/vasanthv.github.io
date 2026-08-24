@@ -6,16 +6,16 @@ description: A few photos I've taken.
 styles:
   - /assets/css/photos.css
 photos:
-  - src: /assets/images/IMG_0926.jpeg
-    alt: ""
-  - src: /assets/images/IMG_0991.jpeg
-    alt: ""
-  - src: /assets/images/IMG_1081.jpeg
-    alt: ""
-  - src: /assets/images/IMG_1209.jpeg
-    alt: ""
   - src: /assets/images/IMG_1211.jpeg
-    alt: ""
+    alt: "strings of cat toy"
+  - src: /assets/images/IMG_0926.jpeg
+    alt: "mono cliff"
+  - src: /assets/images/IMG_0991.jpeg
+    alt: "rain on the car roof"
+  - src: /assets/images/IMG_1081.jpeg
+    alt: "forks of credit provincial park"
+  - src: /assets/images/IMG_1209.jpeg
+    alt: "near wiidookdaadiwin"
 ---
 
 <div class="gallery">
