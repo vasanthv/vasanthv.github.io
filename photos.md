@@ -6,6 +6,8 @@ description: A few photos I've taken.
 styles:
   - /assets/css/photos.css
 photos:
+  - src: /assets/images/IMG_1224.jpeg
+    alt: "stuffie from my daughter"
   - src: /assets/images/IMG_1211.jpeg
     alt: "strings of cat toy"
   - src: /assets/images/IMG_0926.jpeg
