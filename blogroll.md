@@ -16,4 +16,5 @@ description: Blogs I follow.
 - [evy.garden](https://evy.garden/){:target="\_blank" rel="noopener"}
 - [iamgregb.io](https://iamgregb.io/){:target="\_blank" rel="noopener"}
 - [mairamartins.com](https://mairamartins.com/){:target="\_blank" rel="noopener"}
+- [conniesue.me](https://conniesue.me/){:target="\_blank" rel="noopener"}
 - [unstory.eu](https://unstory.eu/){:target="\_blank" rel="noopener"}
