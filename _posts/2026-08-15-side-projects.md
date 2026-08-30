@@ -48,7 +48,7 @@ From there, I’ve reached where I am today. It may not look like much by most s
 
 My side projects played a huge role in that journey.
 
-They helped me learn new skills, experiment with different technologies, switch tech stacks with confidence, and experience almost the entire product lifecycle—from an idea to building, launching, promoting, and eventually shutting down a product.
+They helped me learn new skills, experiment with different technologies, switch tech stacks with confidence, and experience almost the entire product lifecycle - from an idea to building, launching, promoting, and eventually shutting down a product.
 
 More importantly, they taught me how to fail.
 
