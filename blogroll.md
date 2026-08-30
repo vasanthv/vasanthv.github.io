@@ -17,4 +17,5 @@ description: Blogs I follow.
 - [iamgregb.io](https://iamgregb.io/){:target="\_blank" rel="noopener"}
 - [mairamartins.com](https://mairamartins.com/){:target="\_blank" rel="noopener"}
 - [conniesue.me](https://conniesue.me/){:target="\_blank" rel="noopener"}
+- [kannangce.in](https://kannangce.in/){:target="\_blank" rel="noopener"}
 - [unstory.eu](https://unstory.eu/){:target="\_blank" rel="noopener"}
