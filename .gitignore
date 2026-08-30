@@ -6,3 +6,4 @@ vendor/
 Gemfile.lock
 .DS_Store
 .claude
+blog.sublime-workspace

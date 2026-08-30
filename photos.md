@@ -5,25 +5,14 @@ permalink: /photos/
 description: A few photos I've taken.
 styles:
   - /assets/css/photos.css
-photos:
-  - src: /assets/images/IMG_1224.jpeg
-    alt: "stuffie from my daughter"
-  - src: /assets/images/IMG_1211.jpeg
-    alt: "strings of cat toy"
-  - src: /assets/images/IMG_0926.jpeg
-    alt: "mono cliff"
-  - src: /assets/images/IMG_0991.jpeg
-    alt: "rain on the car roof"
-  - src: /assets/images/IMG_1081.jpeg
-    alt: "forks of credit provincial park"
-  - src: /assets/images/IMG_1209.jpeg
-    alt: "near wiidookdaadiwin"
 ---
 
+{% assign photo_posts = site.tags.photo | where_exp: "post", "post.photo" | sort: "date" | reverse %}
+
 <div class="gallery">
-  {% for photo in page.photos %}
-  <button class="gallery__tile" type="button" data-index="{{ forloop.index0 }}" aria-label="Open photo {{ forloop.index }} of {{ page.photos.size }}">
-    <img src="{{ photo.src | relative_url }}" alt="{{ photo.alt }}" loading="lazy" decoding="async">
+  {% for post in photo_posts %}
+  <button class="gallery__tile" type="button" data-index="{{ forloop.index0 }}" aria-label="Open photo {{ forloop.index }} of {{ photo_posts.size }}">
+    <img src="{{ post.photo | relative_url }}" alt="{{ post.title }}" loading="lazy" decoding="async">
   </button>
   {% endfor %}
 </div>
@@ -48,7 +37,7 @@ photos:
 <script>
   (function () {
     var photos = [
-      {% for photo in page.photos %}{ src: {{ photo.src | relative_url | jsonify }}, alt: {{ photo.alt | default: "" | jsonify }} }{% unless forloop.last %},{% endunless %}
+      {% for post in photo_posts %}{ src: {{ post.photo | relative_url | jsonify }}, alt: {{ post.title | default: "" | jsonify }}, url: {{ post.url | relative_url | jsonify }} }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ];
     if (!photos.length) return;
@@ -62,7 +51,10 @@ photos:
       index = (i + photos.length) % photos.length;
       img.src = photos[index].src;
       img.alt = photos[index].alt;
-      caption.textContent = photos[index].alt || (index + 1) + ' / ' + photos.length;
+      var link = document.createElement('a');
+      link.href = photos[index].url;
+      link.textContent = photos[index].alt || (index + 1) + ' / ' + photos.length;
+      caption.replaceChildren(link);
       [index + 1, index - 1].forEach(function (n) {
         new Image().src = photos[(n + photos.length) % photos.length].src;
       });
