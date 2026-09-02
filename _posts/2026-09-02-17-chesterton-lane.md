@@ -226,6 +226,6 @@ My eyes filled with tears as I thought about my own daughter. She was about the 
 
 As we drove away from **17 Chesterton Lane**, I couldn't stop thinking about her smile, her innocence, and how quickly everything in a child's life could change.
 
-At that moment, the horrors of that house felt far too close to home. I thought about the young boy we had just found and then about my daughter waiting for me at home. Whatever dangers exists beyond my control, there was only one thing I truly knew:
+At that moment, the horrors of that house felt far too personal. I thought about the young boy we had just found and then about my daughter waiting for me at home. Whatever dangers exists beyond my control, there was only one thing I truly knew:
 
 I would do everything in my power to protect her.
