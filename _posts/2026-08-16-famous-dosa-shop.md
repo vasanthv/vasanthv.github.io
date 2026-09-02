@@ -1,7 +1,7 @@
 ---
 title: "The famous dosa shop"
 date: 2026-08-16
-tags: [story]
+tags: [fiction]
 ---
 
 > A short story by Vasanth. I originally published this story on my previous blog on November 14, 2025.
