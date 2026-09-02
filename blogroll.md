@@ -18,4 +18,6 @@ description: Blogs I follow.
 - [mairamartins.com](https://mairamartins.com/){:target="\_blank" rel="noopener"}
 - [conniesue.me](https://conniesue.me/){:target="\_blank" rel="noopener"}
 - [kannangce.in](https://kannangce.in/){:target="\_blank" rel="noopener"}
+- [amytrieslife.com](https://amytrieslife.com/){:target="\_blank" rel="noopener"}
+- [pawlean.com](https://pawlean.com/){:target="\_blank" rel="noopener"}
 - [unstory.eu](https://unstory.eu/){:target="\_blank" rel="noopener"}
