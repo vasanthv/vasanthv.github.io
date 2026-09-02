@@ -1,5 +1,5 @@
 ---
-title: "77 Chesterton Lane"
+title: "17 Chesterton Lane"
 date: 2026-09-02
 tags: [fiction]
 ---
@@ -8,11 +8,11 @@ tags: [fiction]
 
 As we responded to the 911 call, we entered the caller's neighbourhood. This area was nothing new to us. It was one of the city's most notorious crime hotspots. We were regularly called there for everything imaginable - drug offences, assaults, sexual assaults, domestic disturbances - you name it.
 
-My partner slowed the patrol car as we approached **77 Chesterton Lane**. Standing outside the house was a nervous woman, probably in her late twenties or early thirties, clutching her phone tightly in her hand.
+My partner slowed the patrol car as we approached **17 Chesterton Lane**. Standing outside the house was a nervous woman, probably in her late twenties or early thirties, clutching her phone tightly in her hand.
 
 We stepped out of the vehicle and approached her, remaining aware of our surroundings.
 
-"Hello, ma'am. Are you the person who called 911?" I asked.
+"Hello, ma'am. Did you call us?" I asked.
 
 "Yes," she replied, moving closer to us. "I called 911. My friend isn't answering her phone."
 
@@ -20,7 +20,7 @@ I glanced at my partner, slightly confused, but he seemed more focused on scanni
 
 "I'm sorry, ma'am, but I don't understand. Could you be a little more specific?" I asked.
 
-"I'm sorry. My name is Carie," she said anxiously. "My friend, Laura, called me yesterday and asked me to pick her up this morning so we could go to work together. I've been calling her, but she isn't answering. I can hear her phone ringing inside the house, and Laura is a very light sleeper. I've been ringing the doorbell and knocking for more than thirty minutes. I'm afraid something might have happened to her."
+"I'm sorry. My name is Carie," she said anxiously. "My friend, Laura who lives here, called me yesterday and asked me to pick her up this morning so we could go to work together. I've been calling her, but she isn't answering. I can hear her phone ringing inside the house, and Laura is a very light sleeper. I've been ringing the doorbell and knocking for more than thirty minutes. I'm afraid something might have happened to her."
 
 Her voice trembled with panic.
 
@@ -36,9 +36,7 @@ Then I remembered.
 
 It had been a difficult case. A single mother had called us in tears, reporting that her teenage son had disappeared. We had searched for him but found nothing that could lead us to his whereabouts. Unfortunately, many missing-teenager cases in this area were connected to drugs. Often, the teenagers would disappear for a few days and eventually return once they had sobered up.
 
-However, there had been something different about that mother. She had been devastated, repeatedly insisting that her son would never use drugs.
-
-Poor woman. Reality can be difficult to accept when it destroys everything you believe about someone you love.
+However, she had been devastated, repeatedly insisting that her son would never use drugs. Poor woman. Reality can be difficult to accept when it destroys everything you believe about someone you love.
 
 While we discussed the situation, a paramedic unit and another police cruiser arrived.
 
@@ -80,7 +78,7 @@ At first, all I could see was the victim's head. Her hair was soaked in blood. I
 
 What I saw was horrifying.
 
-The woman lay in a pool of blood. Her clothing was torn and severely damaged. A knife was used in the attack and its blade driven deep into her genital area, and left with only the handle protruding.
+The woman lay motionless in a pool of blood, her clothing torn and badly damaged. Several stab wounds were visible across her body. It was clear that a kitchen knife had been used in the attack. The blade had been driven deep into her genital area and left there, with only the handle protruding.
 
 For a moment, I simply stood there, struggling to comprehend the brutality of what had happened.
 
@@ -94,7 +92,7 @@ I signalled toward the knife block with my weapon. My partner noticed immediatel
 
 The missing knife could still be somewhere inside the house.
 
-Since the front door had appeared to be secured when we arrived, we initially believed that the suspect might still be inside.
+Since the front door had appeared to be secured when we arrived, we believed that the suspect might still be inside.
 
 We began searching the house, clearing one room at a time.
 
@@ -130,23 +128,17 @@ The basement was empty.
 
 We quickly returned to the ground floor.
 
-The officer pointed toward the front door.
-
-The lock was broken.
+The officer pointed toward the lock on front door which we kicked open.
 
 After examining it, we realized what had happened. The type of lock installed on the door could be engaged while the door was open and would remain locked once the door was closed.
 
 The suspect could have locked the door, left the house, and closed it behind them.
 
-Our initial belief that the killer was still inside suddenly became far less certain.
-
-We lowered our weapons and returned them to their holsters.
+Our initial belief that the killer was still inside suddenly became far less certain. We lowered our weapons and returned them to their holsters.
 
 I then escorted Carie inside so she could identify the victim. I was careful not to expose her to the full scene. I showed her only enough to identify the woman's face.
 
-I didn't want her to see what had been done to her friend.
-
-Carie identified the victim as Laura.
+I didn't want her to see what had been done to her friend. Carie identified the victim as Laura.
 
 I immediately escorted the devastated woman back outside to protect both her and the integrity of the crime scene.
 
@@ -202,7 +194,7 @@ I slowly opened the attic hatch and raised my weapon toward the direction of the
 
 What I saw shocked me more than the body downstairs.
 
-A young boy was standing in the darkness.
+A young boy was sitting in the darkness.
 
 He looked weak and exhausted. Despite his condition, he was holding a knife and pointing it toward me. His hands were trembling so badly that it appeared as though he could barely hold the weapon.
 
@@ -232,8 +224,8 @@ When we finally handed the scene over to the homicide unit and prepared to leave
 
 My eyes filled with tears as I thought about my own daughter. She was about the same age as him.
 
-As we drove away from **77 Chesterton Lane**, I couldn't stop thinking about her smile, her innocence, and how quickly everything in a child's life could change.
+As we drove away from **17 Chesterton Lane**, I couldn't stop thinking about her smile, her innocence, and how quickly everything in a child's life could change.
 
-At that moment, the horrors of that house felt far too close to home. I thought about the young boy we had just found and then about my daughter waiting for me at home. Whatever happened in the world, whatever dangers existed beyond my control, there was only one thing I truly knew:
+At that moment, the horrors of that house felt far too close to home. I thought about the young boy we had just found and then about my daughter waiting for me at home. Whatever dangers exists beyond my control, there was only one thing I truly knew:
 
 I would do everything in my power to protect her.
