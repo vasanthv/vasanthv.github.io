@@ -1,7 +1,7 @@
 ---
 title: "Come on, Blink, You Can Be Better"
 date: 2026-09-03
-tags: [thoughts]
+tags: [rant]
 ---
 
 I bought a couple of Blink cameras and a doorbell and installed them around our house for security. I tried the subscription during the free trial, but decided not to continue. Eventually, I bought an SD card and started recording locally instead.

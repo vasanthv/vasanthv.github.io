@@ -1,7 +1,7 @@
 ---
 title: "Microblogging and me"
 date: 2026-08-18
-tags: [thoughts]
+tags: [rant]
 ---
 
 I remember it was around 2008 when I first came across Twitter. Oh boy, the moment I saw that website, I fell in love with it.
