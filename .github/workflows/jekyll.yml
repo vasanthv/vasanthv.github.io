@@ -40,3 +40,12 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
+      - name: Notify Pushie
+        continue-on-error: true
+        env:
+          PUSHIE_API_KEY: ${{ secrets.PUSHIE_API_KEY }}
+        run: |
+          curl -X POST https://pushie.net/api/push/vasanth \
+            -H "x-api-key: $PUSHIE_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{"text": "Blog deployed"}'
