@@ -41,6 +41,9 @@ defaults:
 sass:
   style: compressed
 
+include:
+  - .well-known
+
 exclude:
   - Gemfile
   - Gemfile.lock
