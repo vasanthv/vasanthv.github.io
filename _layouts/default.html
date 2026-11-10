@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0b0b">
+
+  {%- if page.url == '/' -%}
+    <title>{{ page.title | default: site.title }}</title>
+  {%- else -%}
+    <title>{{ page.title }} &#8211; {{ site.title }}</title>
+  {%- endif -%}
+
+  {%- seo title=false -%}
+  {%- feed_meta -%}
+
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <script>
+    (function () {
+      var link = document.querySelector('link[rel="icon"]');
+      var dark = window.matchMedia('(prefers-color-scheme: dark)');
+      var paint = function () {
+        link.href = 'data:image/svg+xml,' + encodeURIComponent(
+          '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">' +
+          '<path fill="' + (dark.matches ? '#fff' : '#000') + '" d="M90 40L50 80L10 40L30 20L50 40L70 20L90 40Z"/>' +
+          '</svg>'
+        );
+      };
+      dark.addEventListener('change', paint);
+      paint();
+    })();
+  </script>
+
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {%- for stylesheet in page.styles %}
+  <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+  {%- endfor %}
+</head>
+
+<body>
+  {% if page.url == '/' %}
+    {% include header.html %}
+  {% elsif page.layout != 'post' %}
+    <div class="wrap backlink">
+      <a href="{{ '/' | relative_url }}">&larr; {{ site.title }}</a>
+    </div>
+  {% endif %}
+
+  <main class="wrap{% if page.layout == 'post' %} wrap--bare{% endif %}" id="content">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  {% if jekyll.environment == "production" %}
+    <script async src="https://cabin.vasanthv.net/hello.js"></script>
+  {% endif %}
+</body>
+
+</html>

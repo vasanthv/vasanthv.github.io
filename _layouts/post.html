@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+<article
+  class="prose{% if page.link %} prose--link{% endif %}"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <header class="post-header">
+    <p class="post-meta">
+      <time
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+      >
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      <span
+        >by
+        <a href="{{ '/' | relative_url }}" rel="author" itemprop="author"
+          >{{ site.author }}</a
+        ></span
+      >
+      {% if page.tags and page.tags.size > 0 %}
+      <span aria-hidden="true">·</span>
+      {% for tag in page.tags %}<a
+        class="tag"
+        href="{{ tag | slugify | prepend: '/blog/tag/' | append: '/' | relative_url }}"
+        >{{ tag }}</a
+      >{% endfor %} {% endif %}
+    </p>
+    <h1 class="post-title" itemprop="headline">
+      {%- if page.link -%}
+      <a
+        class="post-title__link"
+        href="{{ page.link }}"
+        target="_blank"
+        rel="noopener"
+        >{{ page.title }}<span class="linkout" aria-hidden="true"
+          >&#8599;</span
+        ></a
+      >
+      {%- else -%}
+      {{ page.title }}
+      {%- endif -%}
+    </h1>
+
+    {%- if page.link %}
+    <p class="post-source">
+      <a href="{{ page.link }}" target="_blank" rel="noopener"
+        >{{ page.link | split: '//' | last | split: '/' | first | remove_first:
+        'www.' }}</a
+      >
+    </p>
+    {%- endif %}
+  </header>
+
+  <div itemprop="articleBody">{{ content }}</div>
+</article>
+
+<nav class="post-nav" aria-label="More posts">
+  {% if page.previous %}
+  <a class="post-nav__link" href="{{ page.previous.url | relative_url }}">
+    <span class="post-nav__label">Previous</span>
+    <span>{{ page.previous.title }}</span>
+  </a>
+  {% endif %} {% if page.next %}
+  <a
+    class="post-nav__link post-nav__link--next"
+    href="{{ page.next.url | relative_url }}"
+  >
+    <span class="post-nav__label">Next</span>
+    <span>{{ page.next.title }}</span>
+  </a>
+  {% endif %}
+</nav>
+
+<section class="post-contact" aria-label="Contact">
+  <p class="post-contact__label">Reply by email</p>
+  <script
+    data-letterbirduser="vasanth"
+    src="https://letterbird.co/embed/v1.js"
+  ></script>
+</section>

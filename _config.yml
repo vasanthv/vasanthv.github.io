@@ -1,0 +1,52 @@
+title: Vasanth.V
+author: Vasanth.V
+email: hello@vasanthv.net
+description: >-
+  Keeping things simple and stupid.
+
+url: "https://vasanthv.net"
+baseurl: ""
+
+permalink: /blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+
+feed:
+  path: feed.xml
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag
+  permalinks:
+    tag: /blog/tag/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+sass:
+  style: compressed
+
+include:
+  - .well-known
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .github

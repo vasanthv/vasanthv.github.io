@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="prose">
+  <p class="archive-kicker">Tagged</p>
+  <h1 class="page-title">#{{ page.title }}</h1>
+
+  <p class="page-lede">
+    {{ page.posts | size }} post{% if page.posts.size != 1 %}s{% endif %} ·
+    <a href="{{ '/' | relative_url }}">All posts</a>
+  </p>
+
+  {% include post-list.html posts=page.posts %}
+</article>
