@@ -337,7 +337,8 @@ ul.post-list {
 }
 
 .post-list__date {
-  margin-left: 0.6rem;
+  margin-right: 0.8rem;
+  font-family: var(--mono);
   white-space: nowrap;
 }
 

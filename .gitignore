@@ -16,3 +16,13 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
