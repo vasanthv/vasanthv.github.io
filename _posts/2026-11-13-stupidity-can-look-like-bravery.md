@@ -38,8 +38,4 @@ There is a **BIG** difference between knowing the risks and choosing to face the
 
 This doesn't mean that a brave person must always calculate every possible outcome or carefully plan every action. Sometimes, doing the right thing requires acting immediately. But there is a difference between acting despite knowing the danger and acting because you haven't bothered to recognise it.
 
-I think we often confuse these two things because we judge actions by what we can see, rather than by the intentions and thoughts behind them.
-
-We see someone taking a risk and call them brave. We see someone confronting a challenge and call them fearless. But, not every fearless action is courageous. And not every person who appears brave actually understands what bravery means.
-
-Sometimes, stupidity wears the mask of bravery so convincingly that even the person wearing it cannot tell the difference.
+> True bravery is not about having no fear or ignoring danger; it is about facing your fear to do what is right.
